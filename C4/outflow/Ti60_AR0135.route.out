@@ -1,0 +1,224 @@
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Router Setup
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : High utilization design detected; tuning for routability.
+INFO     : [Setup Parallel Routing Scheduler]
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Route Circuit with 32 threads
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Beneficial skew enabled! Optimizing clock skews ... 
+INFO     : Non-legalized beneficial skew improved geomean CPD by 1.07% (from 4016ps to 3973ps)
+INFO     : CSS improved CPD of clock tdqss_clk by 0.00% (from 2097ps to 2097ps)
+INFO     : CSS improved CPD of clock core_clk by 0.00% (from 4131ps to 4131ps)
+INFO     : CSS improved CPD of clock tac_clk by 2.16% (from 2316ps to 2266ps)
+INFO     : CSS improved CPD of clock twd_clk by 2.22% (from 2257ps to 2207ps)
+INFO     : CSS improved CPD of clock clk_sys by 0.26% (from 9984ps to 9958ps)
+INFO     : CSS improved CPD of clock clk_pixel by 0.00% (from 11570ps to 11570ps)
+INFO     : CSS improved CPD of clock cmos_pclk by 0.71% (from 3223ps to 3200ps)
+INFO     : Discretized beneficial skew improved geomean CPD by 0.77% (from 4016ps to 3985ps in 7 iterations and 1.2 sec)
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Overridding delay budgets for 346 synchronizer-related pins
+INFO     : Iter  1: overlap=199198  heapops=17683810   (0%) cpd=388   frr=1.00  msec=6006
+INFO     : [Setup Delay Budgets | 1108.0 ms]
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Hold Fixing
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Total min wire delay:  21051656
+INFO     : Hold fix wire delay:       1105
+INFO     : Hold fix delay ratio:     0.01%
+INFO     : Pins requiring hold fix:  0.01%
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Iter  2: overlap=129914  heapops=16225061   (6%) cpd=388   frr=1.00  msec=3104
+INFO     : Iter  3: overlap=95181   heapops=17649705   (4%) cpd=388   frr=1.00  msec=3114
+INFO     : Iter  4: overlap=69112   heapops=19535736   (4%) cpd=388   frr=1.00  msec=3414
+INFO     : Iter  5: overlap=49581   heapops=22141763   (10%) cpd=388   frr=1.00  msec=3950
+INFO     : Iter  6: overlap=35960   heapops=25248513   (17%) cpd=388   frr=1.00  msec=4611
+INFO     : Iter  7: overlap=26650   heapops=28307496   (26%) cpd=399   frr=1.03  msec=5347
+INFO     : Iter  8: overlap=20664   heapops=29686793   (35%) cpd=399   frr=1.03  msec=6008
+INFO     : Iter  9: overlap=16103   heapops=30959938   (44%) cpd=10206 frr=26.30  msec=6600
+INFO     : Iter 10: overlap=12591   heapops=32774579   (51%) cpd=10249 frr=26.41  msec=7335
+INFO     : [Rebuild Parallel Routing Scheduler]
+INFO     : Iter 11: overlap=9729    heapops=34406276   (58%) cpd=10249 frr=26.41  msec=8824
+INFO     : Iter 12: overlap=7417    heapops=37324438   (65%) cpd=10248 frr=26.41  msec=10801
+INFO     : Iter 13: overlap=5568    heapops=38592853   (69%) cpd=10330 frr=26.62  msec=12208
+INFO     : Iter 14: overlap=4016    heapops=36776391   (76%) cpd=10317 frr=26.59  msec=12491
+INFO     : Iter 15: overlap=2934    heapops=37467993   (78%) cpd=10384 frr=26.76  msec=15229
+INFO     : Iter 16: overlap=2096    heapops=34052182   (82%) cpd=10384 frr=26.76  msec=13572
+INFO     : [Rebuild Parallel Routing Scheduler]
+INFO     : Iter 17: overlap=1418    heapops=31487196   (85%) cpd=10384 frr=26.76  msec=13598
+INFO     : Iter 18: overlap=1023    heapops=33438303   (86%) cpd=10384 frr=26.76  msec=15568
+INFO     : Iter 19: overlap=722     heapops=28294146   (88%) cpd=10384 frr=26.76  msec=13782
+INFO     : Iter 20: overlap=552     heapops=24904553   (89%) cpd=10401 frr=26.81  msec=11475
+INFO     : Iter 21: overlap=488     heapops=21872363   (89%) cpd=10401 frr=26.81  msec=9952
+INFO     : Iter 22: overlap=372     heapops=22355606   (90%) cpd=10384 frr=26.76  msec=10796
+INFO     : Iter 23: overlap=335     heapops=19623987   (90%) cpd=10384 frr=26.76  msec=9558
+INFO     : Iter 24: overlap=283     heapops=17629199   (90%) cpd=10384 frr=26.76  msec=8754
+INFO     : Iter 25: overlap=236     heapops=20153314   (90%) cpd=10384 frr=26.76  msec=10298
+INFO     : Iter 26: overlap=205     heapops=18175533   (90%) cpd=10384 frr=26.76  msec=9127
+INFO     : [Rebuild Parallel Routing Scheduler]
+INFO     : Iter 27: overlap=149     heapops=15384537   (90%) cpd=10384 frr=26.76  msec=8240
+INFO     : Iter 28: overlap=113     heapops=15304014   (90%) cpd=10384 frr=26.76  msec=7441
+INFO     : Iter 29: overlap=121     heapops=15115979   (91%) cpd=10384 frr=26.76  msec=7387
+INFO     : Iter 30: overlap=103     heapops=15214803   (91%) cpd=10384 frr=26.76  msec=7392
+INFO     : Iter 31: overlap=101     heapops=12784847   (91%) cpd=10384 frr=26.76  msec=6141
+INFO     : Iter 32: overlap=104     heapops=15098538   (91%) cpd=10384 frr=26.76  msec=7396
+INFO     : Iter 33: overlap=75      heapops=14862485   (91%) cpd=10384 frr=26.76  msec=7246
+INFO     : Iter 34: overlap=60      heapops=13066524   (91%) cpd=10384 frr=26.76  msec=6356
+INFO     : Iter 35: overlap=56      heapops=11935038   (91%) cpd=10384 frr=26.76  msec=5796
+INFO     : Iter 36: overlap=52      heapops=10237765   (91%) cpd=10384 frr=26.76  msec=4834
+INFO     : Iter 37: overlap=34      heapops=8455448    (91%) cpd=10384 frr=26.76  msec=4031
+INFO     : Iter 38: overlap=44      heapops=8878720    (91%) cpd=10384 frr=26.76  msec=4306
+INFO     : Iter 39: overlap=39      heapops=10085780   (91%) cpd=10384 frr=26.76  msec=4921
+INFO     : Iter 40: overlap=32      heapops=9220834    (91%) cpd=10384 frr=26.76  msec=4578
+INFO     : Iter 41: overlap=20      heapops=7270184    (91%) cpd=10384 frr=26.76  msec=3480
+INFO     : Iter 42: overlap=11      heapops=6678373    (91%) cpd=10384 frr=26.76  msec=3244
+INFO     : Iter 43: overlap=8       heapops=6001851    (91%) cpd=10384 frr=26.76  msec=2927
+INFO     : Iter 44: overlap=7       heapops=5932564    (91%) cpd=10384 frr=26.76  msec=2906
+INFO     : Iter 45: overlap=7       heapops=5574421    (91%) cpd=10384 frr=26.76  msec=2751
+INFO     : Iter 46: overlap=6       heapops=5605231    (91%) cpd=10384 frr=26.76  msec=2831
+INFO     : Iter 47: overlap=5       heapops=5880296    (91%) cpd=10384 frr=26.76  msec=2936
+INFO     : Iter 48: overlap=6       heapops=5448948    (91%) cpd=10384 frr=26.76  msec=2691
+INFO     : Iter 49: overlap=5       heapops=5333009    (91%) cpd=10384 frr=26.76  msec=2629
+INFO     : Iter 50: overlap=5       heapops=6451251    (91%) cpd=10384 frr=26.76  msec=3472
+INFO     : Iter 51: overlap=3       heapops=5803878    (91%) cpd=10384 frr=26.76  msec=2866
+INFO     : Iter 52: overlap=2       heapops=5297705    (91%) cpd=10384 frr=26.76  msec=2657
+INFO     : Iter 53: overlap=1       heapops=6179625    (91%) cpd=10384 frr=26.76  msec=3008
+INFO     : Iter 54: overlap=3       heapops=5261380    (91%) cpd=10384 frr=26.76  msec=2586
+INFO     : Iter 55: overlap=2       heapops=5264321    (91%) cpd=10384 frr=26.76  msec=2527
+INFO     : Iter 56: overlap=2       heapops=5253241    (91%) cpd=10384 frr=26.76  msec=2595
+INFO     : Iter 57: overlap=1       heapops=5251175    (91%) cpd=10384 frr=26.76  msec=2586
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Beneficial skew enabled! Optimizing clock skews ... 
+INFO     : Non-legalized beneficial skew improved geomean CPD by 0.00% (from 4085ps to 4085ps)
+INFO     : CSS improved CPD of clock tdqss_clk by 0.00% (from 2193ps to 2193ps)
+INFO     : CSS improved CPD of clock core_clk by 0.00% (from 4391ps to 4391ps)
+INFO     : CSS improved CPD of clock tac_clk by 0.00% (from 2270ps to 2270ps)
+INFO     : CSS improved CPD of clock twd_clk by -2.31% (from 2160ps to 2210ps)
+INFO     : CSS improved CPD of clock clk_sys by 1.53% (from 10384ps to 10225ps)
+INFO     : CSS improved CPD of clock clk_pixel by 0.00% (from 11970ps to 11970ps)
+INFO     : CSS improved CPD of clock cmos_pclk by 0.00% (from 3240ps to 3240ps)
+INFO     : Discretized beneficial skew improved geomean CPD by -0.12% (from 4085ps to 4090ps in 1 iterations and 1.2 sec)
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Iter 58: overlap=0       heapops=5248619    (91%) cpd=10225 frr=26.35  msec=3844
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing Result
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing Succeeded in 376.15 seconds taking 58 iterations! 
+INFO     : 
+INFO     : First iteration critical path delay = 0.388 ns 
+INFO     : Last iteration critical path delay  = 10.225 ns (ratio = 26.35)
+INFO     : Max Routing Heap Size = 404,132
+INFO     : Routing trace written to file 'D:/FPGA_C4_Submission/outflow/Ti60_AR0135.troutingtraces' 
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing took 381.2835622 seconds [FlowMsg::StageDuration]
+INFO     :     Routing took 844.375 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Routing virtual memory usage: begin = 191.732 MB, end = 632.84 MB, delta = 441.108 MB [FlowMsg::VMUsage]
+INFO     :     Routing peak virtual memory usage = 742.488 MB [FlowMsg::VMUsage::Peak]
+INFO     : Routing resident set memory usage: begin = 209.908 MB, end = 633.22 MB, delta = 423.312 MB [FlowMsg::RSSUsage]
+INFO     :     Routing peak resident set memory usage = 698.904 MB [FlowMsg::RSSUsage::Peak]
+           ***** Beginning stage final timing analysis ... *****
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:1] No valid object(s) found for 'clk_cam_feedback'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:1] No valid pin(s) found for clock
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:1] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:24] No valid object(s) found for 'clk_pixel_2x'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:24] No valid pin(s) found for clock
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:24] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:31] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : No ports matched 'cmos_data[0]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:66] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:66] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[0]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:67] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:67] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[1]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:68] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:68] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[1]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:69] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:69] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_dqs_n_lo[0]'
+WARNING  : No ports matched 'i_dqs_n_hi[0]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:329] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:329] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_dqs_n_lo[0]'
+WARNING  : No ports matched 'i_dqs_n_hi[0]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:330] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:330] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_dqs_n_hi[1]'
+WARNING  : No ports matched 'i_dqs_n_lo[1]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:335] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:335] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_dqs_n_hi[1]'
+WARNING  : No ports matched 'i_dqs_n_lo[1]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:336] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:336] Unable to run 'set_input_delay' constraint due to warnings found
+INFO     : SDC file 'D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc' parsed successfully.
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+ tdqss_clk       2.303       434.216         (R-R)
+ core_clk        4.501       222.173         (R-R)
+ tac_clk         2.380       420.168         (R-R)
+ twd_clk         2.320       431.034         (R-R)
+ clk_sys        10.302        97.069         (R-R)
+ clk_pixel      12.080        82.781         (R-R)
+ cmos_pclk       6.700       149.254         (F-R)
+
+Geomean max period: 4.660
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+   tdqss_clk        tdqss_clk           2.604           0.301            (R-R)
+   tdqss_clk        core_clk            2.604           2.241            (R-R)
+   core_clk         tdqss_clk           2.604           0.729            (R-R)
+   core_clk         core_clk            5.208           0.707            (R-R)
+   core_clk         tac_clk             2.604           2.121            (R-R)
+   core_clk         twd_clk             0.541           0.142            (R-R)
+   tac_clk          core_clk            2.604           2.209            (R-R)
+   tac_clk          tac_clk             2.604           0.224            (R-R)
+   twd_clk          twd_clk             2.604           0.284            (R-R)
+   clk_sys          clk_sys            10.417           0.115            (R-R)
+   clk_pixel        clk_pixel          13.441           1.361            (R-R)
+   cmos_pclk        cmos_pclk          13.468           9.532            (R-R)
+   cmos_pclk        cmos_pclk           6.734           3.384            (F-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+   tdqss_clk        tdqss_clk           0.000           0.098            (R-R)
+   tdqss_clk        core_clk            0.000           0.068            (R-R)
+   core_clk         tdqss_clk           0.000           0.158            (R-R)
+   core_clk         core_clk            0.000           0.028            (R-R)
+   core_clk         tac_clk             0.000           0.149            (R-R)
+   core_clk         twd_clk            -1.883           2.112            (R-R)
+   tac_clk          core_clk            0.000           0.077            (R-R)
+   tac_clk          tac_clk             0.000           0.018            (R-R)
+   twd_clk          twd_clk             0.000           0.052            (R-R)
+   clk_sys          clk_sys             0.000           0.035            (R-R)
+   clk_pixel        clk_pixel           0.000           0.026            (R-R)
+   cmos_pclk        cmos_pclk           0.000           0.097            (R-R)
+   cmos_pclk        cmos_pclk          -6.734           8.009            (F-R)
+
+INFO     : Write Timing Report to "D:/FPGA_C4_Submission/outflow\Ti60_AR0135.timing.rpt" ...
+INFO     : final timing analysis took 4.7901744 seconds [FlowMsg::StageDuration]
+INFO     :     final timing analysis took 6.328125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : final timing analysis virtual memory usage: begin = 531.312 MB, end = 712.104 MB, delta = 180.792 MB [FlowMsg::VMUsage]
+INFO     :     final timing analysis peak virtual memory usage = 742.488 MB [FlowMsg::VMUsage::Peak]
+INFO     : final timing analysis resident set memory usage: begin = 527.784 MB, end = 706.028 MB, delta = 178.244 MB [FlowMsg::RSSUsage]
+INFO     :     final timing analysis peak resident set memory usage = 706.028 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage final timing analysis *****
+           
+           ***** Beginning stage bitstream generation ... *****
+INFO     : Reading core interface constraints file "D:/FPGA_C4_Submission/outflow/Ti60_AR0135.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "D:/FPGA_C4_Submission/outflow/Ti60_AR0135.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Finished writing bitstream file D:/FPGA_C4_Submission/work_pnr\Ti60_AR0135.lbf.
+INFO     : Bitstream generation took 2.0434064 seconds [FlowMsg::StageDuration]
+INFO     :     Bitstream generation took 1.9375 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Bitstream generation virtual memory usage: begin = 455.432 MB, end = 669.096 MB, delta = 213.664 MB [FlowMsg::VMUsage]
+INFO     :     Bitstream generation peak virtual memory usage = 742.488 MB [FlowMsg::VMUsage::Peak]
+INFO     : Bitstream generation resident set memory usage: begin = 456.744 MB, end = 671.396 MB, delta = 214.652 MB [FlowMsg::RSSUsage]
+INFO     :     Bitstream generation peak resident set memory usage = 706.064 MB [FlowMsg::RSSUsage::Peak]
+INFO     : The entire flow of EFX_PNR took 493.3619633 seconds [FlowMsg::StageDuration]
+INFO     :     The entire flow of EFX_PNR took 1715.078125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : The entire flow of EFX_PNR virtual memory usage: begin = 20.144 MB, end = 669.096 MB, delta = 648.952 MB [FlowMsg::VMUsage]
+INFO     :     The entire flow of EFX_PNR peak virtual memory usage = 742.488 MB [FlowMsg::VMUsage::Peak]
+INFO     : The entire flow of EFX_PNR resident set memory usage: begin = 22.572 MB, end = 671.436 MB, delta = 648.864 MB [FlowMsg::RSSUsage]
+INFO     :     The entire flow of EFX_PNR peak resident set memory usage = 706.064 MB [FlowMsg::RSSUsage::Peak]

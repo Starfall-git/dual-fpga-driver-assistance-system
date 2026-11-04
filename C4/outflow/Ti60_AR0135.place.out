@@ -1,0 +1,265 @@
+           
+           Elitestek FPGA Placement and Routing.
+           Version: 2026.1.132.3.9 
+           Compiled: May 29 2026.
+           
+           Copyright (C) 2013 - 2026 Efinix, Inc. All rights reserved.
+
+           
+           The Tool Is Based on VPR of University of Toronto,
+           a free open source code under MIT license.
+           
+WARNING  : Found 40 warnings in the post-synthesis netlist.
+INFO     : Reading core interface constraints file "D:/FPGA_C4_Submission/outflow/Ti60_AR0135.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "D:/FPGA_C4_Submission/outflow/Ti60_AR0135.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Creating interface clock pin clk_cam_xclk [DBMsg::NetlistInterfaceClockPinCreated]
+INFO     : Reading core interface constraints file "D:/FPGA_C4_Submission/outflow/Ti60_AR0135.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "D:/FPGA_C4_Submission/outflow/Ti60_AR0135.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+WARNING  : IO cell "lcd_de_o" has no assigned placement; it will be placed randomly
+INFO     : 1 IO cells will have random placement
+INFO     : XLR count after merging: 57442
+INFO     : Netlist has 41942 luts, 16930 ffs and 7690 adders [PackerMsg::NetlistStatistics]
+INFO     : Packed into 57442 clusters with 2.8468716(1.0119425) inputs(outputs) per cluster for a total of 163530(58128) inputs(outputs) [PackerMsg::ClusterPackingStatistics]
+INFO     : Packed into 57442 xlrs with 2.8468716(1.0119425) inputs(outputs) per xlr for a total of 163530(58128) inputs(outputs) [PackerMsg::XLRPackingStatistics]
+INFO     : Packed 3 fracturable DSPs into 3 clusters [PackerMsg::DSPPackingStatistics]
+INFO     : Packing took 3.1415873 seconds [FlowMsg::StageDuration]
+INFO     :     Packing took 7.5625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Packing virtual memory usage: begin = 60.636 MB, end = 448.164 MB, delta = 387.528 MB [FlowMsg::VMUsage]
+INFO     :     Packing peak virtual memory usage = 448.172 MB [FlowMsg::VMUsage::Peak]
+INFO     : Packing resident set memory usage: begin = 64.444 MB, end = 453.236 MB, delta = 388.792 MB [FlowMsg::RSSUsage]
+INFO     :     Packing peak resident set memory usage = 453.236 MB [FlowMsg::RSSUsage::Peak]
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:1] No valid object(s) found for 'clk_cam_feedback'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:1] No valid pin(s) found for clock
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:1] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:24] No valid object(s) found for 'clk_pixel_2x'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:24] No valid pin(s) found for clock
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:24] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:31] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : No ports matched 'cmos_data[0]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:66] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:66] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[0]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:67] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:67] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[1]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:68] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:68] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[1]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:69] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:69] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_dqs_n_lo[0]'
+WARNING  : No ports matched 'i_dqs_n_hi[0]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:329] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:329] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_dqs_n_lo[0]'
+WARNING  : No ports matched 'i_dqs_n_hi[0]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:330] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:330] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_dqs_n_lo[1]'
+WARNING  : No ports matched 'i_dqs_n_hi[1]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:335] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:335] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_dqs_n_lo[1]'
+WARNING  : No ports matched 'i_dqs_n_hi[1]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:336] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:336] Unable to run 'set_input_delay' constraint due to warnings found
+INFO     : SDC file 'D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc' parsed successfully.
+INFO     : Reading core interface constraints file "D:/FPGA_C4_Submission/outflow/Ti60_AR0135.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "D:/FPGA_C4_Submission/outflow/Ti60_AR0135.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+WARNING  : Synchronizer chain starting at cell u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_16/u_efx_fifo_top/genblk2.genblk1.efx_resetsync_rd_rst/active_high.efx_resetsync_active_high/async_reg[0][0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_16/u_efx_fifo_top/genblk2.genblk1.efx_resetsync_wr_rst/active_high.efx_resetsync_active_high/async_reg[0][0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+INFO     : Starting Global Placer with 32 threads ...
+            ----------     -------  --------------     -------
+             Iteration       WHPWL Worst Slack (ps) Convergence
+            ----------     -------  --------------     -------
+INFO     :           1    54349632             175         1.1%
+INFO     :           2    41897576             175         1.6%
+INFO     :           3    32254448             175         2.9%
+INFO     :           4    26296068             175         4.3%
+INFO     :           5    18014134             175         8.3%
+INFO     :           6    10253434             246        21.2%
+INFO     :           7     6590328            -391        42.9%
+INFO     :           8     5765061            -803        50.7%
+INFO     :           9     5417475            -804        54.6%
+INFO     :          10     5207796            -794        57.2%
+INFO     :          11     5121562            -950        58.7%
+INFO     :          12     5007954            -316        60.3%
+INFO     :          13     4971577            -331        62.3%
+INFO     :          14     4919923            -403        64.4%
+INFO     :          15     4846454            -627        65.8%
+INFO     :          16     4804157            -685        66.6%
+INFO     :          17     4764368            -414        67.9%
+INFO     :          18     4748696            -304        68.9%
+INFO     :          19     4744076            -499        70.1%
+INFO     :          20     4716329            -741        71.5%
+INFO     :          21     4706744            -859        72.8%
+INFO     :          22     4719056            -516        74.1%
+INFO     :          23     4699460            -908        75.7%
+INFO     :          24     4666935           -1119        78.7%
+INFO     :          25     4605809           -1369        79.7%
+INFO     :          26     4588390            -755        80.5%
+INFO     :          27     4562022            -725        81.6%
+INFO     :          28     4552832           -1006        82.6%
+INFO     :          29     4546757           -1568        83.6%
+INFO     :          30     4531813           -1600        84.9%
+INFO     :          31     4522674           -1792        86.3%
+INFO     :          32     4517661           -1971        87.5%
+INFO     :          33     4547730           -2340        88.4%
+INFO     :          34     4558944           -2674        89.6%
+INFO     :          35     4587914           -2917        90.2%
+INFO     :          36     4607340           -3058        90.9%
+INFO     :          37     4620033           -2982        91.3%
+INFO     :          38     4637745           -2860        91.7%
+INFO     :          39     4654951           -3486        92.5%
+INFO     :          40     4679480           -3586        93.1%
+INFO     :          41     4698474           -3429        94.1%
+INFO     :          42     4717818           -3855        94.8%
+INFO     :          43     4757402           -4062        95.4%
+INFO     :          44     4437540           -4196        95.4%
+INFO     :          45     4475996           -3659        97.1%
+INFO     :          46     4498777           -3623        98.0%
+INFO     :          47     4524821           -3973        98.4%
+INFO     :          48     4547639           -4117        98.5%
+INFO     :          49     4569802           -4526        98.7%
+INFO     :          50     4580532           -4608        98.8%
+INFO     : GP: best_placement: wpd: 12249.7
+INFO     : Starting Annealer
+            ----------     -------  --------------     -------
+             Iteration       WHPWL  Delay Max (ps)     R Limit
+            ----------     -------  --------------     -------
+INFO     :           0     4571326           14393        30.0
+INFO     :           1     6068514           13820        28.2
+INFO     :           2     5441164           12690        25.8
+INFO     :           3     5006009           10890        23.5
+INFO     :           4     4736993           10432        21.3
+INFO     :           5     4507532           10412        19.3
+INFO     :           6     4358453           10333        17.4
+INFO     :           7     4230435           10333        15.7
+INFO     :           8     4143018           10315        14.1
+INFO     :           9     4057580           10230        12.7
+INFO     :          10     3994178           10230        11.4
+INFO     :          11     3938521            2105        10.3
+INFO     :          12     3890069            2105         9.2
+INFO     :          13     3846282            2105         8.3
+INFO     :          14     3806675            2177         7.4
+INFO     :          15     3766297            2105         6.7
+INFO     :          16     3741481            2105         6.0
+INFO     :          17     3712274            2105         5.4
+INFO     :          18     3685563            2097         4.9
+INFO     :          19     3663849            2097         4.4
+INFO     :          20     3640715            2097         3.9
+INFO     :          21     3624292            2097         3.5
+INFO     :          22     3608055            2097         3.2
+INFO     :          23     3594171            2097         2.9
+INFO     :          24     3582021            2097         2.6
+INFO     :          25     3574265            2097         2.3
+INFO     :          26     3565303            2097         2.1
+INFO     :          27     3558975            2097         1.9
+INFO     :          28     3551934            2108         1.7
+INFO     :          29     3549277            2097         1.5
+INFO     :          30     3545647            2097         1.4
+INFO     :          31     3543731            2097         1.2
+INFO     :          32     3540207            2148         1.1
+INFO     :          33     3537552            2193         1.0
+INFO     :          34     3536363            2205         1.0
+INFO     :          35     3532417            2251         1.0
+INFO     : DP: best_placement: wpd: 166.634
+INFO     : Placement successful: 57752 cells are placed
+INFO     : Peak congestion smeared over 4x4 of the chip is 1.8928 at 78,152
+INFO     : Peak congestion smeared over 1/16 of the chip is 1.49938 at 103,97
+INFO     : Peak congestion smeared over 1/4 of the chip is 1.10531 at 122,245
+INFO     : Congestion-weighted HPWL per net: 51.5076
+INFO     : Post-placement cluster-level checks is successful
+INFO     : Post-placement primitive-level checks is successful
+INFO     : Placement took 97.1899261 seconds [FlowMsg::StageDuration]
+INFO     :     Placement took 848.859375 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Placement virtual memory usage: begin = 110.284 MB, end = 353.844 MB, delta = 243.56 MB [FlowMsg::VMUsage]
+INFO     :     Placement peak virtual memory usage = 549.992 MB [FlowMsg::VMUsage::Peak]
+INFO     : Placement resident set memory usage: begin = 123.308 MB, end = 370.532 MB, delta = 247.224 MB [FlowMsg::RSSUsage]
+INFO     :     Placement peak resident set memory usage = 566.272 MB [FlowMsg::RSSUsage::Peak]
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:1] No valid object(s) found for 'clk_cam_feedback'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:1] No valid pin(s) found for clock
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:1] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:24] No valid object(s) found for 'clk_pixel_2x'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:24] No valid pin(s) found for clock
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:24] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:31] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : No ports matched 'cmos_data[0]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:66] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:66] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[0]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:67] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:67] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[1]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:68] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:68] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[1]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:69] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:69] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_dqs_n_lo[0]'
+WARNING  : No ports matched 'i_dqs_n_hi[0]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:329] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:329] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_dqs_n_lo[0]'
+WARNING  : No ports matched 'i_dqs_n_hi[0]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:330] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:330] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_dqs_n_lo[1]'
+WARNING  : No ports matched 'i_dqs_n_hi[1]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:335] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:335] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_dqs_n_lo[1]'
+WARNING  : No ports matched 'i_dqs_n_hi[1]'
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:336] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc:336] Unable to run 'set_input_delay' constraint due to warnings found
+INFO     : SDC file 'D:/FPGA_C4_Submission/Ti60_AR0135.pt.sdc' parsed successfully.
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+ tdqss_clk       1.962       509.684         (R-R)
+ core_clk        4.292       232.992         (R-R)
+ tac_clk         2.303       434.216         (R-R)
+ twd_clk         2.082       480.307         (R-R)
+ clk_sys         9.449       105.831         (R-R)
+ clk_pixel      11.999        83.340         (R-R)
+ cmos_pclk       6.482       154.273         (F-R)
+
+Geomean max period: 4.354
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+   tdqss_clk        tdqss_clk           2.604            0.642           (R-R)
+   tdqss_clk        core_clk            2.604            2.179           (R-R)
+   core_clk         tdqss_clk           2.604            1.055           (R-R)
+   core_clk         core_clk            5.208            0.916           (R-R)
+   core_clk         tac_clk             2.604            2.179           (R-R)
+   core_clk         twd_clk             0.541            0.989           (R-R)
+   tac_clk          core_clk            2.604            2.137           (R-R)
+   tac_clk          tac_clk             2.604            0.301           (R-R)
+   twd_clk          twd_clk             2.604            0.522           (R-R)
+   clk_sys          clk_sys            10.417            0.968           (R-R)
+   clk_pixel        clk_pixel          13.441            1.442           (R-R)
+   cmos_pclk        cmos_pclk          13.468           11.128           (R-R)
+   cmos_pclk        cmos_pclk           6.734            3.493           (F-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+   tdqss_clk        tdqss_clk           0.000           -0.651           (R-R)
+   tdqss_clk        core_clk            0.000            0.175           (R-R)
+   core_clk         tdqss_clk           0.000            0.175           (R-R)
+   core_clk         core_clk            0.000           -0.359           (R-R)
+   core_clk         tac_clk             0.000            0.175           (R-R)
+   core_clk         twd_clk            -1.883            1.367           (R-R)
+   tac_clk          core_clk            0.000            0.175           (R-R)
+   tac_clk          tac_clk             0.000           -0.820           (R-R)
+   twd_clk          twd_clk             0.000           -0.664           (R-R)
+   clk_sys          clk_sys             0.000           -0.622           (R-R)
+   clk_pixel        clk_pixel           0.000            0.090           (R-R)
+   cmos_pclk        cmos_pclk           0.000            0.161           (R-R)
+   cmos_pclk        cmos_pclk          -6.734            8.175           (F-R)
+
+WARNING  : Clock domain between tdqss_clk (rising) and tdqss_clk (rising) may not meet (slack: -0.651 ns) the hold (min) timing requirement
+WARNING  : Clock domain between core_clk (rising) and core_clk (rising) may not meet (slack: -0.359 ns) the hold (min) timing requirement
+WARNING  : Clock domain between tac_clk (rising) and tac_clk (rising) may not meet (slack: -0.820 ns) the hold (min) timing requirement
+WARNING  : Clock domain between twd_clk (rising) and twd_clk (rising) may not meet (slack: -0.664 ns) the hold (min) timing requirement
+WARNING  : Clock domain between clk_sys (rising) and clk_sys (rising) may not meet (slack: -0.622 ns) the hold (min) timing requirement
+INFO     : Write Timing Report to "D:/FPGA_C4_Submission/outflow/Ti60_AR0135.place.timing.rpt" ...

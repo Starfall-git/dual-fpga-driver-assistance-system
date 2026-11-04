@@ -1,0 +1,600 @@
+           
+           Elitestek FPGA Placement and Routing.
+           Version: 2026.1.132.3.9 
+           Compiled: May 29 2026.
+           
+           Copyright (C) 2013 - 2026 Efinix, Inc. All rights reserved.
+
+           
+           The Tool Is Based on VPR of University of Toronto,
+           a free open source code under MIT license.
+           
+WARNING  : Found 77 warnings in the post-synthesis netlist.
+INFO     : Reading core interface constraints file "D:/FPGA_I3_Submission/outflow/ti60f225_oob.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "D:/FPGA_I3_Submission/outflow/ti60f225_oob.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Creating interface clock pin CLK_27M [DBMsg::NetlistInterfaceClockPinCreated]
+INFO     : Creating interface clock pin clk_100m [DBMsg::NetlistInterfaceClockPinCreated]
+INFO     : Creating interface clock pin fb [DBMsg::NetlistInterfaceClockPinCreated]
+INFO     : Creating interface clock pin ge0_tx_clk [DBMsg::NetlistInterfaceClockPinCreated]
+INFO     : Creating interface clock pin ge0_tx_clk_90 [DBMsg::NetlistInterfaceClockPinCreated]
+INFO     : Creating interface clock pin hdmi_tx_fast_clk [DBMsg::NetlistInterfaceClockPinCreated]
+INFO     : Creating interface clock pin i_mipi_txc_sclk [DBMsg::NetlistInterfaceClockPinCreated]
+INFO     : Creating interface clock pin i_mipi_txd_sclk [DBMsg::NetlistInterfaceClockPinCreated]
+INFO     : Creating interface clock pin rx_pll_CLKOUT0 [DBMsg::NetlistInterfaceClockPinCreated]
+WARNING  : logical_block LUT__180811 #36879 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block LUT__180812 #36880 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_addr[0]~FF #46831 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_addr[1]~FF #46842 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_addr[2]~FF #46853 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_addr[3]~FF #46856 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_cache[0]~FF #46865 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_cache[1]~FF #46866 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_cache[2]~FF #46867 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_cache[3]~FF #46868 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_prot[0]~FF #46886 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_prot[1]~FF #46887 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_prot[2]~FF #46888 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_qos[0]~FF #46889 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_qos[1]~FF #46890 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_qos[2]~FF #46891 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_qos[3]~FF #46892 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_region[0]~FF #46893 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_region[1]~FF #46894 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_region[2]~FF #46895 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_region[3]~FF #46896 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/io_ddrA_r_rData_id[0]~FF #49955 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/io_ddrA_r_rData_id[1]~FF #49956 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/io_ddrA_r_rData_id[2]~FF #49957 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/io_ddrA_r_rData_id[3]~FF #49958 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/io_ddrA_r_rData_id[4]~FF #49959 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/io_ddrA_r_rData_id[5]~FF #49960 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/io_ddrA_r_rData_id[6]~FF #49961 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/io_ddrA_r_rData_id[7]~FF #49962 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[0]~FF #52202 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[1]~FF #52203 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[2]~FF #52204 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[3]~FF #52205 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[4]~FF #52206 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[5]~FF #52207 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block LUT__180811 #36879 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block LUT__180812 #36880 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_addr[0]~FF #46831 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_addr[1]~FF #46842 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_addr[2]~FF #46853 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_addr[3]~FF #46856 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_cache[0]~FF #46865 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_cache[1]~FF #46866 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_cache[2]~FF #46867 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_cache[3]~FF #46868 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_prot[0]~FF #46886 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_prot[1]~FF #46887 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_prot[2]~FF #46888 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_qos[0]~FF #46889 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_qos[1]~FF #46890 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_qos[2]~FF #46891 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_qos[3]~FF #46892 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_region[0]~FF #46893 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_region[1]~FF #46894 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_region[2]~FF #46895 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/cpu_arw_payload_region[3]~FF #46896 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/io_ddrA_r_rData_id[0]~FF #49955 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/io_ddrA_r_rData_id[1]~FF #49956 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/io_ddrA_r_rData_id[2]~FF #49957 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/io_ddrA_r_rData_id[3]~FF #49958 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/io_ddrA_r_rData_id[4]~FF #49959 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/io_ddrA_r_rData_id[5]~FF #49960 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/io_ddrA_r_rData_id[6]~FF #49961 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/io_ddrA_r_rData_id[7]~FF #49962 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[0]~FF #52202 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[1]~FF #52203 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[2]~FF #52204 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[3]~FF #52205 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[4]~FF #52206 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+WARNING  : logical_block u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/lineLoader_address[5]~FF #52207 has no fanout [DBMsg::NetlistLogicalBlockNoFanout]
+INFO     : Reading core interface constraints file "D:/FPGA_I3_Submission/outflow/ti60f225_oob.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "D:/FPGA_I3_Submission/outflow/ti60f225_oob.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+WARNING  : IO cell "pll_inst4_RSTN" has no assigned placement; it will be placed randomly
+INFO     : 1 IO cells will have random placement
+WARNING  : Clock source "jtag_inst1_TCK" does not use a dedicated clock pad, extra clock insertion delay will been added
+INFO     : Counting 2 clocks that are not assigned to clock resources as global clocks.
+INFO     : XLR count after merging: 59961
+INFO     : Netlist has 36878 luts, 29434 ffs and 6375 adders [PackerMsg::NetlistStatistics]
+INFO     : Packed into 59961 clusters with 2.5237238(1.0320375) inputs(outputs) per cluster for a total of 151325(61882) inputs(outputs) [PackerMsg::ClusterPackingStatistics]
+INFO     : Packed into 59961 xlrs with 2.5237238(1.0320375) inputs(outputs) per xlr for a total of 151325(61882) inputs(outputs) [PackerMsg::XLRPackingStatistics]
+INFO     : Packed 0 fracturable DSPs into 0 clusters [PackerMsg::DSPPackingStatistics]
+INFO     : Packing took 3.6007895 seconds [FlowMsg::StageDuration]
+INFO     :     Packing took 8.65625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Packing virtual memory usage: begin = 60.644 MB, end = 439.504 MB, delta = 378.86 MB [FlowMsg::VMUsage]
+INFO     :     Packing peak virtual memory usage = 515.304 MB [FlowMsg::VMUsage::Peak]
+INFO     : Packing resident set memory usage: begin = 64.456 MB, end = 445.636 MB, delta = 381.18 MB [FlowMsg::RSSUsage]
+INFO     :     Packing peak resident set memory usage = 497.064 MB [FlowMsg::RSSUsage::Peak]
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:26] No clocks matched 'i_mipi_rx_pclk'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:26] set_clock_groups: No valid clock(s) found for -group 'i_mipi_rx_pclk'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:26] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:26] set_clock_groups: No valid clock(s) found for -group 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:26] set_clock_groups: No valid clock group(s) specified
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:26] Unable to run 'set_clock_groups' constraint due to warnings found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:27] No clocks matched 'CLK_5M'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:27] set_clock_groups: No valid clock(s) found for -group 'CLK_5M'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:27] No clocks matched 'i_mipi_rx_pclk'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:27] set_clock_groups: No valid clock(s) found for -group 'i_mipi_rx_pclk'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:28] No clocks matched 'i_mipi_rx_pclk'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:28] set_clock_groups: No valid clock(s) found for -group 'i_mipi_rx_pclk'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:28] set_clock_groups: Cannot set clock group when only one non-empty group remains
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:28] Unable to run 'set_clock_groups' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_DRCK'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:56] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:56] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_DRCK'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:57] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:57] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_TDO__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:65] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:65] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:65] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_TDO__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:66] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:66] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:66] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_CAPTURE__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:67] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:67] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:67] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_CAPTURE__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:68] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:68] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:68] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_RESET__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:69] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:69] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:69] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_RESET__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:70] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:70] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:70] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_SEL__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:71] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:71] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:71] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_SEL__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:72] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:72] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:72] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_UPDATE__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:73] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:73] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:73] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_UPDATE__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:74] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:74] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:74] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_SHIFT__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:75] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:75] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:75] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_SHIFT__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:76] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:76] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:76] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_DRCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:77] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:77] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:77] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_DRCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:78] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:78] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:78] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:89] Missing value for option -period, please type 'create_clock -help' for usage info
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:89] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[14]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:118] set_output_delay: No valid output port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:118] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[14]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:119] set_output_delay: No valid output port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:119] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[15]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:120] set_output_delay: No valid output port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:120] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[15]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:121] set_output_delay: No valid output port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:121] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'cam_d0_HS_IN[*]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:297] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:297] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cam_d0_HS_IN[*]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:298] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:298] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cam_d1_HS_IN[*]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:305] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:305] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cam_d1_HS_IN[*]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:306] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:306] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cam_d2_HS_IN[*]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:313] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:313] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cam_d2_HS_IN[*]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:314] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:314] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cam_d3_HS_IN[*]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:321] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:321] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cam_d3_HS_IN[*]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:322] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:322] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'rx_dv_HI'
+WARNING  : No ports matched 'rx_dv_HI'
+INFO     : SDC file 'D:/FPGA_I3_Submission/ti60f225_oob.sdc' parsed successfully.
+INFO     : Reading core interface constraints file "D:/FPGA_I3_Submission/outflow/ti60f225_oob.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "D:/FPGA_I3_Submission/outflow/ti60f225_oob.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Counting 2 clocks that are not assigned to clock resources as global clocks.
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/lb2_axi_clk.u_lb2_axi_clk/u3_dout_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/userInterruptB_buffercc/i7_2 is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/lb2_axi_clk.u_lb2_axi_clk/u1_cmd_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/u1_cmd_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/lb2_axi_clk.u_lb2_axi_clk/u2_din_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/u_tinyml_common_dma_if/output_data_fifo/u_efx_fifo_top/genblk2.a_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/u4_din_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/u3_dout_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_common_s_axi4addr8_to_m_axi4addrx/u2_fifo_145w256d_0dly/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_common_s_axi4addr8_to_m_axi4addrx/u3_fifo_56w8d_0dly/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell net_pix_reset_sync[0]~FF is driven by a non-sequential source VCC:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/peripheralCd_logic_outputReset_asyncAssertSyncDeassert_buffercc/buffers_0~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/userInterruptA_buffercc/i7_2 is driven by a non-sequential source LUT__165235:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_cache/tinyml_cache_checker_inst/u_tinyml_cache_checker_check_hit_miss/cache_line_update_fifo/u_efx_fifo_top/genblk2.a_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/i538_2 is driven by a non-sequential source LUT__169924:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_cache/tinyml_cache_core_inst/u_axi_interconnect/MUL_MASTER.u_crossbar/u1_rd_queue_fifo/u_efx_fifo_top/genblk2.a_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_common_s_axi4addr8_to_m_axi4addrx/stitch_data_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_cores_0_logic_cpu/i2578_2 is driven by a non-sequential source LUT__162542:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_riscvJtag_debug_systemReset_asyncAssertSyncDeassert_buffercc/buffers_0~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/lb2_axi_clk.u_lb2_axi_clk/u3_dout_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_cache/tinyml_cache_checker_inst/u_tinyml_cache_checker_check_hit_miss/cache_miss_ext_ar_fifo/u_efx_fifo_top/genblk2.a_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_common_s_axi4addr8_to_m_axi4addrx/u5_fifo_131w256d_0dly/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/lb2_axi_clk.u_lb2_axi_clk/u2_din_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/dq_check_en_r3~FF is driven by a non-sequential source u_ddr3_top/u_phy_top/u_ddr_phy_if/i364_2:Q [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/i189_2 is driven by a non-sequential source LUT__169858:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell net_rx_reset_sync[0]~FF is driven by a non-sequential source VCC:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_common_s_axi4addr8_to_m_axi4addrx/u2_fifo_145w256d_0dly/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_cache/tinyml_cache_core_inst/tinyml_cache_core_ram_inst/load_control_fifo/u_efx_fifo_top/genblk2.a_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_common_s_axi4addr8_to_m_axi4addrx/u_orig_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_common_s_axi4addr8_to_m_axi4addrx/u1_fifo_40w8d_0dly/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_common_s_axi4addr8_to_m_axi4addrx/stitch_data_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/ddr_rden_r3~FF is driven by a non-sequential source u_ddr3_top/u_phy_top/u_ddr_phy_if/i538_2:Q [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/u2_ctl_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_fatigue_endpoint/pixel_run[0]~FF is driven by a non-sequential source VCC:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo/io_input_cmd_queue/system_ddr_ddrLogic_cc_fifo_toplevel_systemCd_logic_outputReset_asyncAssertSyncDeassert_buffercc/buffers_0~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_cache/tinyml_cache_checker_inst/u_tinyml_cache_checker_read_cache_mem/cache_rd_fifo/u_efx_fifo_top/genblk2.a_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_common_s_axi4addr8_to_m_axi4addrx/stitch_info/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_common_s_axi4addr8_to_m_axi4addrx/u5_fifo_131w256d_0dly/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_cache/tinyml_cache_checker_inst/u_tinyml_cache_checker_read_cache_mem/cache_rd_req_fifo/u_efx_fifo_top/genblk2.a_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_cores_0_logic_cpu/i2577_2 is driven by a non-sequential source LUT__160130:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_common_s_axi4addr8_to_m_axi4addrx/u_orig_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell net_ddr_reset_sync[0]~FF is driven by a non-sequential source VCC:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_bridge_bmb_crossClock/io_output_rsp_ccToggle/system_bridge_bmb_crossClock_toplevel_peripheralCd_logic_outputReset_asyncAssertSyncDeassert_buffercc/buffers_0~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_common_s_axi4addr8_to_m_axi4addrx/u1_fifo_40w8d_0dly/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_common_s_axi4addr8_to_m_axi4addrx/u4_fifo_w8d_0dly/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/ddr_wren_r3~FF is driven by a non-sequential source u_ddr3_top/u_phy_top/u_ddr_phy_if/i189_2:Q [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/u2_ctl_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1/rx/io_rxd_buffercc/buffers_0~FF is driven by a non-sequential source fatigue_uart_rx:inpad [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_ddr_ddrLogic_cc_fifo/io_output_rsp_queue/system_ddr_ddrLogic_cc_fifo_toplevel_ddrCd_logic_outputReset_asyncAssertSyncDeassert_buffercc/buffers_0~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_common_s_axi4addr8_to_m_axi4addrx/stitch_info/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/lb2_axi_clk.u_lb2_axi_clk/u1_cmd_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/io_asyncReset_asyncAssertSyncDeassert_buffercc/buffers_0~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/u1_cmd_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_bridge_bmb_crossClock/io_input_cmd_ccToggle/system_bridge_bmb_crossClock_toplevel_systemCd_logic_outputReset_asyncAssertSyncDeassert_buffercc/buffers_0~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/debugCd_logic_outputReset_asyncAssertSyncDeassert_buffercc/buffers_0~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/u4_din_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_ddr3_top/u_phy_top/u_ddr_phy_if/u3_dout_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_riscvJtag_hard_noTap_tunnel/logic_systemLogic_bus_rsp_ccToggle/system_riscvJtag_hard_noTap_tunnel_toplevel_debugCd_logic_outputReset_asyncAssertSyncDeassert_buffercc/buffers_0~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_common_s_axi4addr8_to_m_axi4addrx/u3_fifo_56w8d_0dly/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/system_riscvJtag_hard_noTap_tunnel/logic_systemLogic_bus_rsp_ccToggle_io_output_payload_error~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_common_s_axi4addr8_to_m_axi4addrx/u4_fifo_w8d_0dly/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_cache/tinyml_cache_checker_inst/u_tinyml_cache_checker_track_readback/checker_readback_fifo/u_efx_fifo_top/genblk2.a_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_fatigue_endpoint/cpu_run[0]~FF is driven by a non-sequential source VCC:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_fatigue_system/soc/u_risc_v/u_EfxSapphireSoc/ddrCd_logic_outputReset_asyncAssertSyncDeassert_buffercc/buffers_0~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Timer cuts a combinational loop at the edge from u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_cache/tinyml_cache_core_inst/u_axi_interconnect/MUL_MASTER.u_crossbar/u_arbiter/ROUND_ROBIN.u_round_robin_priority_arbiter/i37:in[0] to u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_cache/tinyml_cache_core_inst/u_axi_interconnect/MUL_MASTER.u_crossbar/u_arbiter/ROUND_ROBIN.u_round_robin_priority_arbiter/i37:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_cache/tinyml_cache_core_inst/u_axi_interconnect/MUL_MASTER.u_crossbar/u_arbiter/ROUND_ROBIN.u_round_robin_priority_arbiter/i37:in[0] to u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_cache/tinyml_cache_core_inst/u_axi_interconnect/MUL_MASTER.u_crossbar/u_arbiter/ROUND_ROBIN.u_round_robin_priority_arbiter/i37:out [TimerMsg::CombinationalLoopDetected]
+INFO     : Starting Global Placer with 8 threads ...
+            ----------     -------  --------------     -------
+             Iteration       WHPWL Worst Slack (ps) Convergence
+            ----------     -------  --------------     -------
+INFO     :           1    38758744           -1205         1.1%
+INFO     :           2    25145276           -1091         1.9%
+INFO     :           3    18313094           -1362         3.4%
+INFO     :           4    12049593           -1465         7.7%
+INFO     :           5     7443576           -1574        15.8%
+INFO     :           6     5242459           -1489        26.9%
+INFO     :           7     4574032           -1395        33.4%
+INFO     :           8     4240324           -1569        37.5%
+INFO     :           9     4105102           -1556        39.9%
+INFO     :          10     4020600           -1356        42.2%
+INFO     :          11     3866611           -1413        44.7%
+INFO     :          12     3811768           -1341        46.2%
+INFO     :          13     3704625           -1434        48.1%
+INFO     :          14     3663285           -1353        49.2%
+INFO     :          15     3621875           -1219        50.3%
+INFO     :          16     3620844           -1242        51.7%
+INFO     :          17     3571798           -1163        53.6%
+INFO     :          18     3496016           -1187        55.5%
+INFO     :          19     3454895           -1273        56.7%
+INFO     :          20     3421544           -1228        58.4%
+INFO     :          21     3390877           -1190        59.9%
+INFO     :          22     3377510           -1201        61.6%
+INFO     :          23     3341051           -1325        63.3%
+INFO     :          24     3326701           -1152        64.7%
+INFO     :          25     3309099           -1376        66.0%
+INFO     :          26     3315110           -1338        67.3%
+INFO     :          27     3296508           -1394        68.7%
+INFO     :          28     3286713           -1314        69.8%
+INFO     :          29     3286430           -1365        70.5%
+INFO     :          30     3270101           -1544        71.6%
+INFO     :          31     3254856           -1498        72.9%
+INFO     :          32     3277553           -1519        73.5%
+INFO     :          33     3262711           -1357        74.6%
+INFO     :          34     3291246           -1457        75.5%
+INFO     :          35     3203276           -1578        80.5%
+INFO     :          36     3170328           -1502        81.3%
+INFO     :          37     3148137           -1461        82.1%
+INFO     :          38     3134574           -1613        82.7%
+INFO     :          39     3125488           -1540        83.5%
+INFO     :          40     3122372           -1461        84.4%
+INFO     :          41     3110854           -1435        85.5%
+INFO     :          42     3112403           -1461        86.5%
+INFO     :          43     3110518           -1538        87.7%
+INFO     :          44     3103090           -1554        88.8%
+INFO     :          45     3113796           -1491        89.8%
+INFO     :          46     3121470           -1604        90.9%
+INFO     :          47     3135874           -1590        91.6%
+INFO     :          48     3141614           -1549        92.1%
+INFO     :          49     3148013           -1518        92.8%
+INFO     :          50     3154600           -1511        93.3%
+INFO     :          51     3163628           -1511        94.2%
+INFO     :          52     3174455           -1456        94.8%
+INFO     :          53     3189551           -1492        95.6%
+INFO     :          54     3080898           -1518        95.6%
+INFO     :          55     3105057           -1563        97.0%
+INFO     :          56     3115515           -1563        98.0%
+INFO     :          57     3127368           -1563        98.3%
+INFO     :          58     3135575           -1448        98.5%
+INFO     :          59     3145050           -1563        98.6%
+INFO     :          60     3152389           -1448        98.9%
+INFO     : GP: best_placement: wpd: 836.856
+INFO     : Starting Annealer
+            ----------     -------  --------------     -------
+             Iteration       WHPWL  Delay Max (ps)     R Limit
+            ----------     -------  --------------     -------
+INFO     :           0     2124334            1443        30.0
+INFO     :           1     3252093            1238        90.0
+INFO     :           2     2977062            1245        26.2
+INFO     :           3     2670603            1245        23.9
+INFO     :           4     2501278            1245        21.8
+INFO     :           5     2365056            1245        19.8
+INFO     :           6     2275296            1245        17.9
+INFO     :           7     2203920            1213        16.1
+INFO     :           8     2149254            1213        14.5
+INFO     :           9     2098617            1213        13.1
+INFO     :          10     2063996            1213        11.8
+INFO     :          11     2029248            1213        10.6
+INFO     :          12     2001640            1213         9.5
+INFO     :          13     1976169            1213         8.5
+INFO     :          14     1951229            1213         7.7
+INFO     :          15     1928524            1213         6.9
+INFO     :          16     1911196            1213         6.2
+INFO     :          17     1894878            1190         5.5
+INFO     :          18     1880279            1190         5.0
+INFO     :          19     1866141            1190         4.4
+INFO     :          20     1851622            1190         4.0
+INFO     :          21     1842273            1190         3.6
+INFO     :          22     1832839            1190         3.2
+INFO     :          23     1825353            1190         2.9
+INFO     :          24     1819444            1190         2.5
+INFO     : DP: best_placement: wpd: 0.390829
+INFO     : Starting incremental timing annealer
+INFO     : Starting incremental timing quench 1 with temperature 0.1 and 0.2 moves per pass
+            ----------     -------  --------------     -------
+             Iteration       WHPWL  Delay Max (ps)     R Limit
+            ----------     -------  --------------     -------
+INFO     :           0     1819444            1190        30.0
+INFO     :           1     1821934            1190        26.8
+INFO     :           2     1824453            1190        24.0
+INFO     :           3     1824083            1190        21.4
+INFO     :           4     1823519            1190        19.1
+INFO     :           5     1823202            1190        17.1
+INFO     :           6     1822431            1190        15.3
+INFO     :           7     1820799            1190        13.6
+INFO     :           8     1819659            1190        12.2
+INFO     :           9     1818107            1190        10.8
+INFO     : DP: best_placement: wpd: -1
+INFO     : Placement successful: 60228 cells are placed
+INFO     : Peak congestion smeared over 4x4 of the chip is 2.20045 at 129,199
+INFO     : Peak congestion smeared over 1/16 of the chip is 1.91188 at 118,199
+INFO     : Peak congestion smeared over 1/4 of the chip is 1.24606 at 98,195
+INFO     : Congestion-weighted HPWL per net: 36.814
+INFO     : Post-placement cluster-level checks is successful
+INFO     : Post-placement primitive-level checks is successful
+INFO     : Placement took 102.9039911 seconds [FlowMsg::StageDuration]
+INFO     :     Placement took 562.875 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Placement virtual memory usage: begin = 106.136 MB, end = 349.376 MB, delta = 243.24 MB [FlowMsg::VMUsage]
+INFO     :     Placement peak virtual memory usage = 573.54 MB [FlowMsg::VMUsage::Peak]
+INFO     : Placement resident set memory usage: begin = 119.472 MB, end = 367.66 MB, delta = 248.188 MB [FlowMsg::RSSUsage]
+INFO     :     Placement peak resident set memory usage = 590.22 MB [FlowMsg::RSSUsage::Peak]
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:26] No clocks matched 'i_mipi_rx_pclk'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:26] set_clock_groups: No valid clock(s) found for -group 'i_mipi_rx_pclk'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:26] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:26] set_clock_groups: No valid clock(s) found for -group 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:26] set_clock_groups: No valid clock group(s) specified
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:26] Unable to run 'set_clock_groups' constraint due to warnings found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:27] No clocks matched 'CLK_5M'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:27] set_clock_groups: No valid clock(s) found for -group 'CLK_5M'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:27] No clocks matched 'i_mipi_rx_pclk'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:27] set_clock_groups: No valid clock(s) found for -group 'i_mipi_rx_pclk'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:28] No clocks matched 'i_mipi_rx_pclk'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:28] set_clock_groups: No valid clock(s) found for -group 'i_mipi_rx_pclk'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:28] set_clock_groups: Cannot set clock group when only one non-empty group remains
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:28] Unable to run 'set_clock_groups' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_DRCK'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:56] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:56] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_DRCK'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:57] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:57] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_TDO__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:65] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:65] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:65] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_TDO__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:66] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:66] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:66] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_CAPTURE__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:67] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:67] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:67] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_CAPTURE__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:68] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:68] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:68] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_RESET__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:69] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:69] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:69] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_RESET__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:70] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:70] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:70] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_SEL__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:71] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:71] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:71] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_SEL__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:72] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:72] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:72] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_UPDATE__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:73] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:73] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:73] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_UPDATE__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:74] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:74] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:74] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_SHIFT__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:75] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:75] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:75] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_SHIFT__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:76] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:76] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:76] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_DRCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:77] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:77] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:77] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst2_autodbg_DRCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:78] No clocks matched 'jtag_inst2_autodbg_TCK__'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:78] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:78] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:89] Missing value for option -period, please type 'create_clock -help' for usage info
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:89] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[14]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:118] set_output_delay: No valid output port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:118] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[14]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:119] set_output_delay: No valid output port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:119] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[15]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:120] set_output_delay: No valid output port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:120] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[15]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:121] set_output_delay: No valid output port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:121] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'cam_d0_HS_IN[*]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:297] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:297] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cam_d0_HS_IN[*]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:298] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:298] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cam_d1_HS_IN[*]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:305] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:305] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cam_d1_HS_IN[*]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:306] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:306] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cam_d2_HS_IN[*]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:313] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:313] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cam_d2_HS_IN[*]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:314] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:314] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cam_d3_HS_IN[*]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:321] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:321] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cam_d3_HS_IN[*]'
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:322] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/FPGA_I3_Submission/ti60f225_oob.sdc:322] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'rx_dv_HI'
+WARNING  : No ports matched 'rx_dv_HI'
+INFO     : SDC file 'D:/FPGA_I3_Submission/ti60f225_oob.sdc' parsed successfully.
+WARNING  : Timer cuts a combinational loop at the edge from u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_cache/tinyml_cache_core_inst/u_axi_interconnect/MUL_MASTER.u_crossbar/u_arbiter/ROUND_ROBIN.u_round_robin_priority_arbiter/i37:in[0] to u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_cache/tinyml_cache_core_inst/u_axi_interconnect/MUL_MASTER.u_crossbar/u_arbiter/ROUND_ROBIN.u_round_robin_priority_arbiter/i37:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_cache/tinyml_cache_core_inst/u_axi_interconnect/MUL_MASTER.u_crossbar/u_arbiter/ROUND_ROBIN.u_round_robin_priority_arbiter/i37:in[0] to u_fatigue_system/soc/u_tinyml_top_channels/genblk1[0].u_tinyml_top_ch/u_tinyml_accelerator/u_tinyml_accelerator_int/Cache.u_tinyml_cache/tinyml_cache_core_inst/u_axi_interconnect/MUL_MASTER.u_crossbar/u_arbiter/ROUND_ROBIN.u_round_robin_priority_arbiter/i37:out [TimerMsg::CombinationalLoopDetected]
+Maximum possible analyzed clocks frequency
+   Clock Name     Period (ns)  Frequency (MHz)     Edge
+tx_cal_clk_90edge    2.091        478.240         (R-R)
+sdram_clk            2.084        479.846         (R-R)
+rx_cal_clk           2.011        497.265         (R-R)
+tx_cal_clk           1.967        508.388         (R-R)
+vid_clk_dvi2         1.223        817.661         (R-R)
+hdmi_tx_slow_clk     5.581        179.179         (R-R)
+core_clk             7.642        130.856         (R-R)
+i_cam_ck_CLKOUT      1.516        659.631         (R-R)
+jtag_inst1_TCK       5.012        199.521         (R-R)
+rxc                  6.889        145.159         (R-R)
+
+Geomean max period: 2.933
+
+Setup (Max) Clock Relationship
+  Launch Clock      Capture Clock   Constraint (ns)     Slack (ns)          Edge
+tx_cal_clk_90edge tx_cal_clk_90edge       2.500            0.409           (R-R)
+tx_cal_clk_90edge tx_cal_clk              2.500            0.744           (R-R)
+tx_cal_clk_90edge core_clk                2.500            1.971           (R-R)
+sdram_clk         tx_cal_clk_90edge       2.500            1.012           (R-R)
+sdram_clk         sdram_clk               2.500            0.416           (R-R)
+rx_cal_clk        rx_cal_clk              2.500            0.489           (R-R)
+tx_cal_clk        tx_cal_clk              2.500            0.533           (R-R)
+vid_clk_dvi2      vid_clk_dvi2           13.468           12.245           (R-R)
+vid_clk_dvi2      rxc                     0.004           -1.312           (R-R)
+hdmi_tx_slow_clk  hdmi_tx_slow_clk        6.734            1.153           (R-R)
+core_clk          tx_cal_clk_90edge       2.500            1.299           (R-R)
+core_clk          core_clk               10.000            2.358           (R-R)
+core_clk          rxc                     2.000            0.574           (R-R)
+i_cam_ck_CLKOUT   i_cam_ck_CLKOUT        10.000            8.484           (R-R)
+jtag_inst1_TCK    jtag_inst1_TCK        100.000           94.988           (R-R)
+jtag_inst1_TCK    jtag_inst1_TCK         50.000           49.428           (F-R)
+rxc               core_clk                2.000            1.516           (R-R)
+rxc               rxc                     8.000            1.111           (R-R)
+rxc               ge0_tx_clk              2.000            0.901           (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock      Capture Clock   Constraint (ns)     Slack (ns)          Edge
+tx_cal_clk_90edge tx_cal_clk_90edge       0.000            0.098           (R-R)
+tx_cal_clk_90edge tx_cal_clk              0.000            1.371           (R-R)
+tx_cal_clk_90edge core_clk                0.000            0.149           (R-R)
+sdram_clk         tx_cal_clk_90edge       0.000            0.707           (R-R)
+sdram_clk         sdram_clk               0.000            0.117           (R-R)
+rx_cal_clk        rx_cal_clk              0.000            0.098           (R-R)
+tx_cal_clk        tx_cal_clk              0.000            0.179           (R-R)
+vid_clk_dvi2      vid_clk_dvi2            0.000            0.179           (R-R)
+vid_clk_dvi2      rxc                     0.000            0.931           (R-R)
+hdmi_tx_slow_clk  hdmi_tx_slow_clk        0.000            0.098           (R-R)
+core_clk          tx_cal_clk_90edge       0.000            0.149           (R-R)
+core_clk          core_clk                0.000            0.098           (R-R)
+core_clk          rxc                     0.000            0.195           (R-R)
+i_cam_ck_CLKOUT   i_cam_ck_CLKOUT         0.000            0.277           (R-R)
+jtag_inst1_TCK    jtag_inst1_TCK          0.000            0.179           (R-R)
+jtag_inst1_TCK    jtag_inst1_TCK        -50.000           48.110           (F-R)
+rxc               core_clk                0.000            0.195           (R-R)
+rxc               rxc                     0.000            0.179           (R-R)
+rxc               ge0_tx_clk             -6.000            6.275           (R-R)
+
+WARNING  : Clock domain between vid_clk_dvi2 (rising) and rxc (rising) may not meet (slack: -1.312 ns) the setup (max) timing requirement
+INFO     : Write Timing Report to "D:/FPGA_I3_Submission/outflow/ti60f225_oob.place.timing.rpt" ...

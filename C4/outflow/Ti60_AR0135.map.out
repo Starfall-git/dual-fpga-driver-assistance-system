@@ -1,0 +1,1146 @@
+INFO     : Elitestek FPGA Synthesis.
+INFO     : Version: 2026.1.132.3.9
+INFO     : Compiled: May 29 2026.
+INFO     : 
+INFO     : Copyright (C) 2013 - 2026 Efinix, Inc. All rights reserved.
+
+INFO     : Reading project database "D:/FPGA_C4_Submission/Ti60_AR0135.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 8 [FlowMsg::MaxThreads]
+INFO     : Reading project database "D:/FPGA_C4_Submission/Ti60_AR0135.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : ***** Beginning Analysis ... *****
+INFO     : default VHDL library search path is now "C:/Users/francis/Desktop/FPGA Contest/env/Efinity IDE/2026.1/sim_models/vhdl/packages/vhdl_2008" [VHDL-1504]
+INFO     : Restoring all Verilog modules from file 'C:/Users/francis/Desktop/FPGA Contest/env/Efinity IDE/2026.1/sim_models/maplib/perilib_efxlib_parsetree.vdb' [VERI-2484]
+INFO     : Restoring all Verilog modules from file 'C:/Users/francis/Desktop/FPGA Contest/env/Efinity IDE/2026.1/sim_models/maplib/maplib_efxlib_parsetree.vdb' [VERI-2484]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\ip\W0_FIFO\W0_FIFO.sv' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\ip\R0_FIFO\R0_FIFO.sv' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\ip\dsi_tx\dsi_tx.sv' [VERI-1482]
+INFO     : D:\FPGA_C4_Submission\ip\dsi_tx\dsi_tx.sv(6312): undeclared symbol '**', assumed default net type '**' [VERI-2561]
+INFO     : D:\FPGA_C4_Submission\ip\dsi_tx\dsi_tx.sv(6312): undeclared symbol '**', assumed default net type '**' [VERI-2561]
+INFO     : D:\FPGA_C4_Submission\ip\dsi_tx\dsi_tx.sv(9145): undeclared symbol '**', assumed default net type '**' [VERI-2561]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\ip\csi_rx\csi_rx.sv' [VERI-1482]
+INFO     : D:\FPGA_C4_Submission\ip\csi_rx\csi_rx.sv(7306): undeclared symbol '**', assumed default net type '**' [VERI-2561]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv' [VERI-1482]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(267): analyzing included file 'D:\FPGA_C4_Submission\ip\DdrCtrl/ddr3_controller.vh' [VERI-1328]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(267): back to file 'D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv' [VERI-2320]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(590): undeclared symbol '**', assumed default net type '**' [VERI-2561]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(595): analyzing included file 'D:\FPGA_C4_Submission\ip\DdrCtrl/ddr3_controller.vh' [VERI-1328]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(595): back to file 'D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv' [VERI-2320]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1585): analyzing included file 'D:\FPGA_C4_Submission\ip\DdrCtrl/ddr3_controller.vh' [VERI-1328]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1585): back to file 'D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv' [VERI-2320]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1839): analyzing included file 'D:\FPGA_C4_Submission\ip\DdrCtrl/ddr3_controller.vh' [VERI-1328]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1839): back to file 'D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv' [VERI-2320]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(2146): analyzing included file 'D:\FPGA_C4_Submission\ip\DdrCtrl/ddr3_controller.vh' [VERI-1328]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(2146): back to file 'D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv' [VERI-2320]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(2615): analyzing included file 'D:\FPGA_C4_Submission\ip\DdrCtrl/ddr3_controller.vh' [VERI-1328]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(2615): back to file 'D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv' [VERI-2320]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\ip\W0_FIFO_8\W0_FIFO_8.sv' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\ip\W0_FIFO_64\W0_FIFO_64.sv' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\ip\FIFO_W48R24\FIFO_W48R24.sv' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\ip\R0_FIFO_8\R0_FIFO_8.sv' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\ip\R0_FIFO_16\R0_FIFO_16.sv' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\ip\W0_FIFO_32\W0_FIFO_32.sv' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\sys_top.v' [VERI-1482]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(368): parameter 'SIM_DATA' becomes localparam in 'sys_top' with formal parameter declaration list [VERI-1199]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\control\uart_rx.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\control\uart_tx.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\control\key_debounce.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\control\threshold_cdc.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\axi\ddr_frame_store.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\control\uart_image_control.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\video_rgb2gray.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\unsigned_divider.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\video_window3x3.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\video_sobel.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\video_shape_font.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\video_assist_font.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\video_sobel2.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\sobeledge_8d_window.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\ddr_rw_ctrl.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\cmos_i2c\i2c_timing_ctrl_16bit.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\cmos_i2c\CMOS_Capture_RAW_Gray.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\cmos_i2c\I2C_MT9M001_Gray_Config.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\lcd_para.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\lcd_driver.v' [VERI-1482]
+INFO     : D:\FPGA_C4_Submission\src\lcd_driver.v(37): analyzing included file 'D:\FPGA_C4_Submission\src/lcd_para.v' [VERI-1328]
+INFO     : D:\FPGA_C4_Submission\src\lcd_driver.v(37): back to file 'D:\FPGA_C4_Submission\src\lcd_driver.v' [VERI-2320]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\hdmi_ip\hdmi_tx_ip.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\hdmi_ip\encode.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\hdmi_ip\serdes_4b_10to1.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\cmos_i2c\I2C_SC130GS_12801024_4Lanes_Config.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\PWMLite.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\lcd_display.v' [VERI-1482]
+INFO     : D:\FPGA_C4_Submission\src\lcd_display.v(48): analyzing included file 'D:\FPGA_C4_Submission\src/lcd_para.v' [VERI-1328]
+INFO     : D:\FPGA_C4_Submission\src\lcd_display.v(48): back to file 'D:\FPGA_C4_Submission\src\lcd_display.v' [VERI-2320]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\dsi\dsi_init.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\Sensor_Image_XYCrop.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\cmos_i2c\i2c_timing_ctrl_reg16_dat16.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\cmos_i2c\ar0135_init.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\cmos_i2c\ar0135_capture.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\cmos_i2c\I2C_AR0135_1280720_Config.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\axi\AXI4_AWARMux.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\lvds\LCDDual2LVDS.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\axi\ddr_frame_owner.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\axi\axi4_ctrl.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\hdmi_ip\tmds_channel.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\hdmi_ip\rgb2dvi.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\cmos_i2c\I2C_OV5640_1280720_Config.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\video_median3x3.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\sort3_8bit.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\video_canny_core.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\video_processing.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\video_lane_curve.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\video_lane_overlay.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\video_split_display.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\video_gaussian3x3.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\video_stream_delay.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\video_binary_morph3x3.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\video_sobel_morph.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\FPGA_C4_Submission\src\isp\video_sharpen.v' [VERI-1482]
+INFO     : Analysis took 0.7482586 seconds [FlowMsg::StageDuration]
+INFO     :     Analysis took 0.6875 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Analysis virtual memory usage: begin = 59.632 MB, end = 70.976 MB, delta = 11.344 MB [FlowMsg::VMUsage]
+INFO     :     Analysis peak virtual memory usage = 70.976 MB [FlowMsg::VMUsage::Peak]
+INFO     : Analysis resident set memory usage: begin = 63.944 MB, end = 79.296 MB, delta = 15.352 MB [FlowMsg::RSSUsage]
+INFO     :     Analysis peak resident set memory usage = 79.296 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending Analysis ... *****
+INFO     : ***** Beginning Elaboration ... *****
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(620): port 'cal_shift_val' remains unconnected for this instance [VERI-1927]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(928): port 'axi_awid' remains unconnected for this instance [VERI-1927]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(963): port 'lcd_xpos' remains unconnected for this instance [VERI-1927]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(1103): port 'TMDS_Clk_p' remains unconnected for this instance [VERI-1927]
+INFO     : D:\FPGA_C4_Submission\sys_top.v(3): compiling module 'sys_top' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(451): expression size 32 truncated to fit in target size 1 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(184): port 'wr_busy' remains unconnected for this instance [VERI-1927]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(184): port 'wr_data' is not connected on this instance [VERI-2435]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(49): compiling module 'DdrCtrl' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1840): compiling module 'efx_ddr3_soft_controller_dc13612a41d14b64a60c05045f64d9b7' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(2495): port '**' is not connected on this instance [VERI-2435]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(2495): compiling module '**' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(2610): compiling module '**' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(2610): expression size ** truncated to fit in target size ** [VERI-1209]
+INFO     : ../../vdb/src/efinix_maplib.v(884): compiling module 'EFX_SRL8' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(2495): actual bit length ** differs from formal bit length *** for port '**' [VERI-1330]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(2610): compiling module '**' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(2610): expression size ** truncated to fit in target size ** [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(2610): compiling module '**' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(2610): expression size ** truncated to fit in target size ** [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(2495): actual bit length ** differs from formal bit length *** for port '**' [VERI-1330]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(3274): compiling module '**' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1644): compiling module '**' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(590): port '**' remains unconnected for this instance [VERI-1927]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(590): compiling module '**' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1767): compiling module '**' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1834): compiling module '**' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1767): compiling module '**' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1580): compiling module '**' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1580): extracting RAM for identifier '**' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(262): compiling module '**' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(222): compiling module '**' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1580): compiling module '**' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1580): extracting RAM for identifier '**' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1580): compiling module '**' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1580): extracting RAM for identifier '**' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(3295): compiling module 'efx_fifo_top_dc13612a41d14b64a60c05045f64d9b7(FAMILY="TITANIUM",BYPASS_RESET_SYNC=1,MODE="FWFT",DEPTH=64,DATA_WIDTH=128,OUTPUT_REG=1,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=33,PROG_FULL_NEGATE=33,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=2)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(3615): compiling module 'efx_fifo_ram_dc13612a41d14b64a60c05045f64d9b7(FAMILY="TITANIUM",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=128,RDATA_WIDTH=128,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(3652): extracting RAM for identifier 'ram' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(4324): compiling module 'efx_fifo_ctl_dc13612a41d14b64a60c05045f64d9b7(SYNC_CLK=0,MODE="FWFT",WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PROG_FULL_ASSERT=33,PROG_FULL_NEGATE=33,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1,OVERFLOW_PROTECT=1,UNDERFLOW_PROTECT=1)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(4767): compiling module 'efx_fifo_bin2gray_dc13612a41d14b64a60c05045f64d9b7(WIDTH=7)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(4129): compiling module 'efx_asyncreg_dc13612a41d14b64a60c05045f64d9b7(WIDTH=7,ACTIVE_LOW=0,OFF_ASSERTION=1)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(3931): compiling module 'efx_fifo_gray2bin_dc13612a41d14b64a60c05045f64d9b7(WIDTH=7)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(3931): compiling module 'efx_fifo_gray2bin_dc13612a41d14b64a60c05045f64d9b7(WIDTH=6)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(3931): compiling module 'efx_fifo_gray2bin_dc13612a41d14b64a60c05045f64d9b7' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(3931): compiling module 'efx_fifo_gray2bin_dc13612a41d14b64a60c05045f64d9b7(WIDTH=4)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(3931): compiling module 'efx_fifo_gray2bin_dc13612a41d14b64a60c05045f64d9b7(WIDTH=3)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(3931): compiling module 'efx_fifo_gray2bin_dc13612a41d14b64a60c05045f64d9b7(WIDTH=2)' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(590): actual bit length ** differs from formal bit length *** for port '**' [VERI-1330]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1580): compiling module '**' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1580): extracting RAM for identifier '**' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1580): compiling module '**' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1580): extracting RAM for identifier '**' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1441): port '**' remains unconnected for this instance [VERI-1927]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1441): compiling module '**' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(4885): port '**' remains unconnected for this instance [VERI-1927]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(4885): compiling module '**' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(3295): compiling module 'efx_fifo_top_dc13612a41d14b64a60c05045f64d9b7(FAMILY="TITANIUM",BYPASS_RESET_SYNC=1,DEPTH=64,DATA_WIDTH=1,PIPELINE_REG=0,OPTIONAL_FLAGS=0,OUTPUT_REG=1,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=62,PROG_FULL_NEGATE=62,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=2)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(3615): compiling module 'efx_fifo_ram_dc13612a41d14b64a60c05045f64d9b7(FAMILY="TITANIUM",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=1,RDATA_WIDTH=1,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(3652): extracting RAM for identifier 'ram' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(4324): compiling module 'efx_fifo_ctl_dc13612a41d14b64a60c05045f64d9b7(SYNC_CLK=0,WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PIPELINE_REG=0,ALMOST_FLAG=0,PROG_FULL_ASSERT=62,PROG_FULL_NEGATE=62,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1,HANDSHAKE_FLAG=0,OVERFLOW_PROTECT=1,UNDERFLOW_PROTECT=1)' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(4885): actual bit length ** differs from formal bit length *** for port '**' [VERI-1330]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(4885): input port '**' is not connected on this instance [VDB-1013]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(2141): compiling module '**' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(2141): extracting RAM for identifier '**' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(2141): **: reading from file '**' [VERI-2855]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1441): expression size ** truncated to fit in target size ** [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1441): net '**' does not have a driver [VDB-1002]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(590): net '**' does not have a driver [VDB-1002]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(590): input port '**' is not connected on this instance [VDB-1013]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1767): compiling module '**' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1834): compiling module '**' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(1707): compiling module '**' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(2495): input port '**' is not connected on this instance [VDB-1013]
+WARNING  : D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv(117): input port 'wr_data[127]' is not connected on this instance [VDB-1013]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(587): actual bit length 4 differs from formal bit length 8 for port 'axi_aid' [VERI-1330]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(594): actual bit length 4 differs from formal bit length 8 for port 'axi_wid' [VERI-1330]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(603): actual bit length 4 differs from formal bit length 8 for port 'axi_bid' [VERI-1330]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(609): actual bit length 4 differs from formal bit length 8 for port 'axi_rid' [VERI-1330]
+INFO     : D:\FPGA_C4_Submission\src\axi\AXI4_AWARMux.v(11): compiling module 'AXI4_AWARMux(AID_LEN=4)' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\src\axi\AXI4_AWARMux.v(90): expression size 2 truncated to fit in target size 1 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\cmos_i2c\ar0135_init.v(2): compiling module 'ar0135_init' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\cmos_i2c\I2C_AR0135_1280720_Config.v(17): compiling module 'I2C_AR0135_1280720_Config' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(695): expression size 3 truncated to fit in target size 2 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(696): expression size 5 truncated to fit in target size 4 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\cmos_i2c\ar0135_capture.v(2): compiling module 'ar0135_capture' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\axi\axi4_ctrl.v(2): compiling module 'axi4_ctrl(C_FRAME_STORE=1,C_TRANSFORM=1,C_ID_LEN=4,C_RD_END_ADDR=1843200,C_W_WIDTH=16,C_R_WIDTH=16)' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\src\axi\axi4_ctrl.v(111): expression size 32 truncated to fit in target size 16 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\axi\ddr_frame_store.v(3): compiling module 'ddr_frame_store' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\src\axi\ddr_frame_store.v(29): expression size 32 truncated to fit in target size 4 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\axi\axi4_ctrl.v(196): expression size 3 truncated to fit in target size 2 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\axi\axi4_ctrl.v(238): expression size 2 truncated to fit in target size 1 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\axi\axi4_ctrl.v(257): expression size 23 truncated to fit in target size 22 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(110): port 'a_wr_rst_i' remains unconnected for this instance [VERI-1927]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(49): compiling module 'W0_FIFO_16' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(310): compiling module 'efx_fifo_top_3a5a8130f9dc48d5847ad155af31e06b(FAMILY="TITANIUM",SYNC_STAGE=3,MODE="FWFT",DEPTH=4096,DATA_WIDTH=16,OPTIONAL_FLAGS=0,PROGRAMMABLE_FULL="STATIC_SINGLE",PROG_FULL_ASSERT=1536,PROG_FULL_NEGATE=1536,PROGRAMMABLE_EMPTY="STATIC_SINGLE",PROG_EMPTY_ASSERT=127,PROG_EMPTY_NEGATE=128,ASYM_WIDTH_RATIO=7)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(1370): compiling module 'efx_resetsync_3a5a8130f9dc48d5847ad155af31e06b(ACTIVE_LOW=0)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(1415): compiling module 'efx_asyncreg_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=1,ACTIVE_LOW=0,RST_VALUE=1)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(630): compiling module 'efx_fifo_ram_3a5a8130f9dc48d5847ad155af31e06b(FAMILY="TITANIUM",WR_DEPTH=4096,WDATA_WIDTH=16,RDATA_WIDTH=128,WADDR_WIDTH=12,OUTPUT_REG=0,RAM_MUX_RATIO=8)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(667): extracting RAM for identifier 'ram' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(942): compiling module 'efx_fifo_ctl_3a5a8130f9dc48d5847ad155af31e06b_renamed_due_excessive_length_1' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(1245): expression size 32 truncated to fit in target size 13 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(1246): expression size 32 truncated to fit in target size 10 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(221): compiling module 'efx_fifo_bin2gray_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=10)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(1415): compiling module 'efx_asyncreg_3a5a8130f9dc48d5847ad155af31e06b(ASYNC_STAGE=3,WIDTH=10,ACTIVE_LOW=0,OFF_ASSERTION=1)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(133): compiling module 'efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=10)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(133): compiling module 'efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=9)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(133): compiling module 'efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=8)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(133): compiling module 'efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=7)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(133): compiling module 'efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=6)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(133): compiling module 'efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(133): compiling module 'efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=4)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(133): compiling module 'efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=3)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(133): compiling module 'efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=2)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(221): compiling module 'efx_fifo_bin2gray_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=13)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(1415): compiling module 'efx_asyncreg_3a5a8130f9dc48d5847ad155af31e06b(ASYNC_STAGE=3,WIDTH=13,ACTIVE_LOW=0,OFF_ASSERTION=1)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(133): compiling module 'efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=13)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(133): compiling module 'efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=12)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(133): compiling module 'efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=11)' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv(92): input port 'a_wr_rst_i' is not connected on this instance [VDB-1013]
+INFO     : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(3): compiling module 'axi_transform_reader(BASE_ADDR=32'b0,FRAME_BITS=4,COMPARE_ENABLE=1)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(31): extracting RAM for identifier 'source_ram' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(32): extracting RAM for identifier 'display_ram' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\unsigned_divider.v(3): compiling module 'unsigned_divider' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\src\isp\unsigned_divider.v(13): expression size 33 truncated to fit in target size 32 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(199): expression size 17 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(205): expression size 13 truncated to fit in target size 12 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(223): expression size 32 truncated to fit in target size 4 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(224): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(234): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(238): expression size 16 truncated to fit in target size 12 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(239): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(250): expression size 31 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(251): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(255): expression size 31 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(256): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(257): expression size 31 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(260): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(262): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(281): expression size 16 truncated to fit in target size 8 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(302): expression size 18 truncated to fit in target size 12 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v(306): expression size 17 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(891): actual bit length 32 differs from formal bit length 4 for port 'axi_bid' [VERI-1330]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(892): actual bit length 32 differs from formal bit length 2 for port 'axi_bresp' [VERI-1330]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(893): actual bit length 32 differs from formal bit length 1 for port 'axi_bvalid' [VERI-1330]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(927): actual bit length 8 differs from formal bit length 32 for port 'tp_o' [VERI-1330]
+INFO     : D:\FPGA_C4_Submission\src\lcd_driver.v(39): compiling module 'lcd_driver' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\src\lcd_driver.v(145): expression size 14 truncated to fit in target size 12 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(962): actual bit length 24 differs from formal bit length 48 for port 'lcd_data' [VERI-1330]
+INFO     : D:\FPGA_C4_Submission\src\control\uart_image_control.v(3): compiling module 'uart_image_control(LANE_ENABLE=1,SNAPSHOT_ENABLE=1,CAMERA_ENABLE=1,DUAL_CANNY_ENABLE=1,MORPH_ENABLE=1,MORPH_EXT_ENABLE=1,FEATURE_ENABLE=1)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\control\uart_rx.v(3): compiling module 'uart_rx' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\control\uart_tx.v(3): compiling module 'uart_tx' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\control\key_debounce.v(3): compiling module 'key_debounce' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\control\threshold_cdc.v(4): compiling module 'threshold_cdc(RESET_VALUE=0)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\control\threshold_cdc.v(4): compiling module 'threshold_cdc(WIDTH=24,RESET_VALUE=24'b0111100000000010100)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\control\threshold_cdc.v(4): compiling module 'threshold_cdc(WIDTH=10,RESET_VALUE=0)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\control\threshold_cdc.v(4): compiling module 'threshold_cdc(WIDTH=16,RESET_VALUE=16'b011001000000000)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\control\threshold_cdc.v(4): compiling module 'threshold_cdc(WIDTH=56,RESET_VALUE=56'b011000011000000000001010110100000000011110000000000000)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\control\threshold_cdc.v(4): compiling module 'threshold_cdc(WIDTH=56,RESET_VALUE=56'b010100001100001000000000000001000001000000001010000000)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\control\threshold_cdc.v(4): compiling module 'threshold_cdc(WIDTH=56,RESET_VALUE=56'b0110000000001000000001000110000000001000010100000000110)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\control\threshold_cdc.v(4): compiling module 'threshold_cdc(WIDTH=56,RESET_VALUE=56'b0101101000000001010000000000000000)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\control\threshold_cdc.v(4): compiling module 'threshold_cdc(WIDTH=35,RESET_VALUE=35'b01000000000000000000000100000100100)' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_processing.v(191): port 'guard_valid_o' remains unconnected for this instance [VERI-1927]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_processing.v(273): port 'guard_valid_o' remains unconnected for this instance [VERI-1927]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_processing.v(20): compiling module 'video_processing(RUNTIME_FEATURES=1,SHAPE_SUPPORT=1,LANE_SUPPORT=1,SPLIT_SUPPORT=1)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(WIDTH=3,DELAY=35)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(23): extracting RAM for identifier 'memory' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(37): expression size 7 truncated to fit in target size 6 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_rgb2gray.v(3): compiling module 'video_rgb2gray' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(WIDTH=24,DELAY=35)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(23): extracting RAM for identifier 'memory' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(37): expression size 7 truncated to fit in target size 6 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(WIDTH=8,DELAY=32)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(23): extracting RAM for identifier 'memory' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(37): expression size 6 truncated to fit in target size 5 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_window3x3.v(3): compiling module 'video_window3x3' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_window3x3.v(24): extracting RAM for identifier 'line1' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_window3x3.v(25): extracting RAM for identifier 'line2' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_gaussian3x3.v(8): compiling module 'video_gaussian3x3' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_gaussian3x3.v(99): expression size 11 truncated to fit in target size 8 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_median3x3.v(1): compiling module 'video_median3x3' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\sort3_8bit.v(1): compiling module 'sort3_8bit' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_canny_core.v(14): compiling module 'video_canny_core' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_canny_core.v(215): extracting RAM for identifier 'mag_line0' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_canny_core.v(216): extracting RAM for identifier 'mag_line1' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_canny_core.v(369): extracting RAM for identifier 'state_line0' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_canny_core.v(370): extracting RAM for identifier 'state_line1' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_window3x3.v(3): compiling module 'video_window3x3(GUARD_XY=8)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_window3x3.v(24): extracting RAM for identifier 'line1' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_window3x3.v(25): extracting RAM for identifier 'line2' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\sobeledge_8d_window.v(9): compiling module 'sobeledge_8d_window(GRAYSCALE_OUTPUT=0)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_sobel2.v(3): compiling module 'video_sobel2' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(WIDTH=8,DELAY=16)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(23): extracting RAM for identifier 'memory' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(37): expression size 5 truncated to fit in target size 4 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(DELAY=16)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(23): extracting RAM for identifier 'memory' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(37): expression size 5 truncated to fit in target size 4 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_sobel_morph.v(4): compiling module 'video_sobel_morph' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_binary_morph3x3.v(8): compiling module 'video_binary_morph3x3' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_binary_morph3x3.v(20): extracting RAM for identifier 'line1' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_binary_morph3x3.v(20): extracting RAM for identifier 'line2' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(WIDTH=6,DELAY=1652,RESET_VALUE=6'b100000)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(23): extracting RAM for identifier 'memory' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(37): expression size 12 truncated to fit in target size 11 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_binary_morph3x3.v(83): expression size 12 truncated to fit in target size 11 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_binary_morph3x3.v(8): compiling module 'video_binary_morph3x3(STAGE=1)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_binary_morph3x3.v(20): extracting RAM for identifier 'line1' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_binary_morph3x3.v(20): extracting RAM for identifier 'line2' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_binary_morph3x3.v(83): expression size 12 truncated to fit in target size 11 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\sobeledge_8d_window.v(9): compiling module 'sobeledge_8d_window(ADAPTIVE_THRESHOLD=0)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(WIDTH=10,DELAY=1)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(WIDTH=8,DELAY=4)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(23): extracting RAM for identifier 'memory' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(37): expression size 3 truncated to fit in target size 2 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(WIDTH=24,DELAY=1660)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(23): extracting RAM for identifier 'memory' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(37): expression size 12 truncated to fit in target size 11 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_sharpen.v(4): compiling module 'video_sharpen' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(WIDTH=34,DELAY=23)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(23): extracting RAM for identifier 'memory' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(37): expression size 6 truncated to fit in target size 5 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(WIDTH=34,DELAY=1651)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(23): extracting RAM for identifier 'memory' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(37): expression size 12 truncated to fit in target size 11 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(WIDTH=34,DELAY=3302)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(23): extracting RAM for identifier 'memory' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(37): expression size 13 truncated to fit in target size 12 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(WIDTH=56,DELAY=3306,RESET_VALUE=56'b01100)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(23): extracting RAM for identifier 'memory' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(37): expression size 13 truncated to fit in target size 12 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(WIDTH=2,DELAY=3306)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(23): extracting RAM for identifier 'memory' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(37): expression size 13 truncated to fit in target size 12 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_sobel2.v(41): compiling module 'video_edge_palette' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(DELAY=3306)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(23): extracting RAM for identifier 'memory' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(37): expression size 13 truncated to fit in target size 12 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(3): compiling module 'video_shape_recognizer(VS_ACTIVE=1'b0)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(33): extracting RAM for identifier 'bitmap0' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(33): extracting RAM for identifier 'bitmap1' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(51): extracting RAM for identifier 'queue' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(81): extracting RAM for identifier 'row_min' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(81): extracting RAM for identifier 'row_max' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(138): extracting RAM for identifier 'work_x0' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(138): extracting RAM for identifier 'work_x1' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(139): extracting RAM for identifier 'work_y0' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(139): extracting RAM for identifier 'work_y1' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(140): extracting RAM for identifier 'work_kind' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(141): extracting RAM for identifier 'display_x0' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(141): extracting RAM for identifier 'display_x1' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(142): extracting RAM for identifier 'display_y0' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(142): extracting RAM for identifier 'display_y1' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(143): extracting RAM for identifier 'display_kind' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(146): extracting RAM for identifier 'profiles' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(150): extracting RAM for identifier 'profile_cache' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(152): extracting RAM for identifier 'profile_above' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(152): extracting RAM for identifier 'profile_below' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(156): extracting RAM for identifier 'work_misses' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(156): extracting RAM for identifier 'display_misses' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(196): extracting RAM for identifier 'work_stable' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(196): extracting RAM for identifier 'display_candidate' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(197): extracting RAM for identifier 'work_hits' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(197): extracting RAM for identifier 'display_hits' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(24): expression size 9 truncated to fit in target size 8 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(25): expression size 9 truncated to fit in target size 7 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(32): expression size 16 truncated to fit in target size 14 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(158): expression size 13 truncated to fit in target size 11 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(162): expression size 9 truncated to fit in target size 7 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(164): expression size 13 truncated to fit in target size 11 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(184): expression size 32 truncated to fit in target size 11 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(258): expression size 16 truncated to fit in target size 14 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(287): expression size 32 truncated to fit in target size 14 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_shape_font.v(2): compiling module 'video_shape_font' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v(441): expression size 32 truncated to fit in target size 7 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(WIDTH=24,DELAY=1)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(WIDTH=8,DELAY=1)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_overlay.v(5): compiling module 'video_lane_overlay' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_overlay.v(28): extracting RAM for identifier 'rows' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_overlay.v(48): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_overlay.v(51): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_overlay.v(56): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_overlay.v(62): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_overlay.v(63): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_overlay.v(64): expression size 17 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_overlay.v(66): expression size 17 truncated to fit in target size 16 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(4): compiling module 'video_lane_curve' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(115): extracting RAM for identifier 'sums' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(117): extracting RAM for identifier 'counts' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(120): extracting RAM for identifier 'measured' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(121): extracting RAM for identifier 'anchors' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(121): extracting RAM for identifier 'fit' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(122): extracting RAM for identifier 'observed' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(122): extracting RAM for identifier 'accepted' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(122): extracting RAM for identifier 'initialized' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(123): extracting RAM for identifier 'support' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(124): extracting RAM for identifier 'variance' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(126): extracting RAM for identifier 'misses' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(134): extracting RAM for identifier 'row_first' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(134): extracting RAM for identifier 'row_last' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(135): extracting RAM for identifier 'first_y' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(135): extracting RAM for identifier 'last_y' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(358): extracting RAM for identifier 'road_rows' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(52): expression size 31 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(54): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(56): expression size 17 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(184): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(92): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(97): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(198): expression size 6 truncated to fit in target size 5 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(199): expression size 6 truncated to fit in target size 5 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(212): expression size 6 truncated to fit in target size 5 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(213): expression size 6 truncated to fit in target size 5 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(258): expression size 26 truncated to fit in target size 4 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(260): expression size 32 truncated to fit in target size 8 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(263): expression size 32 truncated to fit in target size 4 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(267): expression size 32 truncated to fit in target size 24 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(281): expression size 32 truncated to fit in target size 24 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(282): expression size 25 truncated to fit in target size 24 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(283): expression size 32 truncated to fit in target size 24 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(284): expression size 32 truncated to fit in target size 24 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(285): expression size 32 truncated to fit in target size 24 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(287): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(288): expression size 32 truncated to fit in target size 24 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(289): expression size 25 truncated to fit in target size 24 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(291): expression size 32 truncated to fit in target size 24 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(292): expression size 32 truncated to fit in target size 24 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(293): expression size 32 truncated to fit in target size 24 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(295): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(321): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(401): expression size 26 truncated to fit in target size 4 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(403): expression size 32 truncated to fit in target size 8 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(991): compiling module 'lane_inner_trace' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(1011): extracting RAM for identifier 'rows' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(1017): extracting RAM for identifier 'gaps' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(1019): extracting RAM for identifier 'recent' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(1021): extracting RAM for identifier 'dead' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(1032): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(1033): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(1068): expression size 16 truncated to fit in target size 9 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(1097): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(1114): expression size 6 truncated to fit in target size 5 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(432): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(434): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(438): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(507): expression size 17 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(511): expression size 17 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(641): expression size 32 truncated to fit in target size 8 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(645): expression size 30 truncated to fit in target size 4 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(678): expression size 32 truncated to fit in target size 8 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(681): expression size 8 truncated to fit in target size 4 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(682): expression size 31 truncated to fit in target size 4 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(709): expression size 16 truncated to fit in target size 9 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(723): expression size 16 truncated to fit in target size 6 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(724): expression size 16 truncated to fit in target size 9 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_assist_font.v(2): compiling module 'video_assist_font' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_assist_font.v(176): extracting RAM for identifier 'rom' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_assist_font.v(176): net 'rom' does not have a driver [VDB-1002]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(733): expression size 31 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(736): expression size 30 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(92): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(97): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(829): expression size 4 truncated to fit in target size 3 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(833): expression size 4 truncated to fit in target size 3 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(837): expression size 16 truncated to fit in target size 10 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(838): expression size 16 truncated to fit in target size 10 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(843): expression size 16 truncated to fit in target size 10 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(844): expression size 16 truncated to fit in target size 10 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(853): expression size 16 truncated to fit in target size 10 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(854): expression size 16 truncated to fit in target size 10 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(859): expression size 16 truncated to fit in target size 10 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(860): expression size 16 truncated to fit in target size 10 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(874): expression size 6 truncated to fit in target size 5 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(878): expression size 32 truncated to fit in target size 24 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(879): expression size 6 truncated to fit in target size 5 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(891): expression size 6 truncated to fit in target size 5 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(899): expression size 6 truncated to fit in target size 5 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(102): expression size 32 truncated to fit in target size 24 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(905): expression size 24 truncated to fit in target size 20 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(906): expression size 6 truncated to fit in target size 5 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(909): expression size 24 truncated to fit in target size 20 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(910): expression size 6 truncated to fit in target size 5 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(916): expression size 6 truncated to fit in target size 5 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(920): expression size 24 truncated to fit in target size 20 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(921): expression size 6 truncated to fit in target size 5 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(931): expression size 24 truncated to fit in target size 20 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(935): expression size 6 truncated to fit in target size 5 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(950): expression size 6 truncated to fit in target size 5 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(955): expression size 6 truncated to fit in target size 5 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(957): expression size 24 truncated to fit in target size 20 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(958): expression size 6 truncated to fit in target size 5 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(960): expression size 17 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(967): expression size 24 truncated to fit in target size 20 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(969): expression size 32 truncated to fit in target size 16 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_lane_curve.v(970): expression size 6 truncated to fit in target size 5 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(WIDTH=2,DELAY=3308)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(23): extracting RAM for identifier 'memory' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(37): expression size 13 truncated to fit in target size 12 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_split_display.v(3): compiling module 'video_split_display(VS_ACTIVE=1'b0)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_split_display.v(9): extracting RAM for identifier 'left_mem' [VERI-2571]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_split_display.v(9): extracting RAM for identifier 'right_mem' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_split_display.v(18): expression size 32 truncated to fit in target size 11 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_split_display.v(19): expression size 32 truncated to fit in target size 11 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_split_display.v(29): expression size 12 truncated to fit in target size 11 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(4): compiling module 'video_stream_delay(WIDTH=4,DELAY=1650)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(23): extracting RAM for identifier 'memory' [VERI-2571]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_stream_delay.v(37): expression size 12 truncated to fit in target size 11 [VERI-1209]
+WARNING  : D:\FPGA_C4_Submission\src\isp\video_split_display.v(37): expression size 32 truncated to fit in target size 11 [VERI-1209]
+INFO     : D:\FPGA_C4_Submission\src\hdmi_ip\rgb2dvi.v(7): compiling module 'rgb2dvi(ENABLE_OSERDES=0)' [VERI-1018]
+INFO     : D:\FPGA_C4_Submission\src\hdmi_ip\tmds_channel.v(4): compiling module 'tmds_channel' [VERI-1018]
+WARNING  : D:\FPGA_C4_Submission\src\hdmi_ip\rgb2dvi.v(50): actual bit length 32 differs from formal bit length 4 for port 'data_island_data' [VERI-1330]
+WARNING  : D:\FPGA_C4_Submission\src\hdmi_ip\rgb2dvi.v(52): actual bit length 4 differs from formal bit length 3 for port 'mode' [VERI-1330]
+WARNING  : D:\FPGA_C4_Submission\src\hdmi_ip\rgb2dvi.v(58): actual bit length 32 differs from formal bit length 4 for port 'data_island_data' [VERI-1330]
+WARNING  : D:\FPGA_C4_Submission\src\hdmi_ip\rgb2dvi.v(60): actual bit length 4 differs from formal bit length 3 for port 'mode' [VERI-1330]
+WARNING  : D:\FPGA_C4_Submission\src\hdmi_ip\rgb2dvi.v(66): actual bit length 32 differs from formal bit length 4 for port 'data_island_data' [VERI-1330]
+WARNING  : D:\FPGA_C4_Submission\src\hdmi_ip\rgb2dvi.v(68): actual bit length 4 differs from formal bit length 3 for port 'mode' [VERI-1330]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(1084): actual bit length 32 differs from formal bit length 1 for port 'oe_i' [VERI-1330]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(436): net 'w_dev_index_o[7]' does not have a driver [VDB-1002]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(437): net 'w_dev_cmd_o[7]' does not have a driver [VDB-1002]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(438): net 'w_dev_wdata_o[31]' does not have a driver [VDB-1002]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(439): net 'w_dev_wvalid_o' does not have a driver [VDB-1002]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(443): net 'w_spi_ssn_o' does not have a driver [VDB-1002]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(444): net 'w_spi_data_o[3]' does not have a driver [VDB-1002]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(461): net 'w_lcd_b_o[7]' does not have a driver [VDB-1002]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(1077): input port 'SerialClk' is not connected on this instance [VDB-1013]
+INFO     : Elaboration took 0.9950399 seconds [FlowMsg::StageDuration]
+INFO     :     Elaboration took 0.859375 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Elaboration virtual memory usage: begin = 70.976 MB, end = 248.284 MB, delta = 177.308 MB [FlowMsg::VMUsage]
+INFO     :     Elaboration peak virtual memory usage = 248.284 MB [FlowMsg::VMUsage::Peak]
+INFO     : Elaboration resident set memory usage: begin = 79.34 MB, end = 258.812 MB, delta = 179.472 MB [FlowMsg::RSSUsage]
+INFO     :     Elaboration peak resident set memory usage = 258.812 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending Elaboration ... *****
+INFO     : ... Setting Synthesis Option: mode=speed
+INFO     : ***** Beginning Reading Mapping Library ... *****
+INFO     : Reading Mapping Library took 0.0165349 seconds [FlowMsg::StageDuration]
+INFO     :     Reading Mapping Library took 0.015625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Reading Mapping Library virtual memory usage: begin = 281.116 MB, end = 281.116 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     :     Reading Mapping Library peak virtual memory usage = 281.116 MB [FlowMsg::VMUsage::Peak]
+INFO     : Reading Mapping Library resident set memory usage: begin = 291.096 MB, end = 291.096 MB, delta = 0 MB [FlowMsg::RSSUsage]
+INFO     :     Reading Mapping Library peak resident set memory usage = 291.096 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending Reading Mapping Library ... *****
+INFO     : ... Pre-synthesis checks begin
+WARNING  : The primary output port 'lcd_tp_sda_o' wire 'lcd_tp_sda_o' is not driven. [EFX-0256]
+WARNING  : The primary output port 'lcd_tp_sda_oe' wire 'lcd_tp_sda_oe' is not driven. [EFX-0256]
+WARNING  : The primary output port 'lcd_tp_scl_o' wire 'lcd_tp_scl_o' is not driven. [EFX-0256]
+WARNING  : The primary output port 'lcd_tp_scl_oe' wire 'lcd_tp_scl_oe' is not driven. [EFX-0256]
+WARNING  : The primary output port 'lcd_tp_int_o' wire 'lcd_tp_int_o' is not driven. [EFX-0256]
+WARNING  : The primary output port 'lcd_tp_int_oe' wire 'lcd_tp_int_oe' is not driven. [EFX-0256]
+WARNING  : The primary output port 'lcd_tp_rst_o' wire 'lcd_tp_rst_o' is not driven. [EFX-0256]
+WARNING  : The primary output port 'lcd_pwm_o' wire 'lcd_pwm_o' is not driven. [EFX-0256]
+WARNING  : The primary output port 'lcd_blen_o' wire 'lcd_blen_o' is not driven. [EFX-0256]
+WARNING  : The primary output port 'lcd_vs_o' wire 'lcd_vs_o' is not driven. [EFX-0256]
+WARNING  : The primary output port 'lcd_hs_o' wire 'lcd_hs_o' is not driven. [EFX-0256]
+WARNING  : The primary output port 'lcd_de_o' wire 'lcd_de_o' is not driven. [EFX-0256]
+WARNING  : Removing redundant signal : Shift_Q7_Out[4][7:0]. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:2610) [EFX-0200]
+WARNING  : Removing redundant signal : Shift_Out[7:0]. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:2610) [EFX-0200]
+WARNING  : Removing redundant signal : Shift_Q7_Out[4][31:0]. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:2610) [EFX-0200]
+WARNING  : Removing redundant signal : Shift_Out[31:0]. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:2610) [EFX-0200]
+WARNING  : Removing redundant signal : Shift_Q7_Out[4][47:0]. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:2610) [EFX-0200]
+WARNING  : Removing redundant signal : Shift_Out[47:0]. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:2610) [EFX-0200]
+INFO     : ... Memory 'ram' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:1580) [EFX-0677]
+INFO     : ... Memory 'ram' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:1580) [EFX-0677]
+INFO     : ... Memory 'ram' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:1580) [EFX-0677]
+INFO     : ... Memory 'ram' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:3652) [EFX-0677]
+WARNING  : Removing redundant signal : bit_xor. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:4778) [EFX-0200]
+WARNING  : Removing redundant signal : bit_xor.nex_bit[31:0]. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:4779) [EFX-0200]
+WARNING  : Removing redundant signal : bit_xor.curr_bit[31:0]. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:4780) [EFX-0200]
+WARNING  : Removing redundant signal : bit_xor.xor_in[6:0]. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:4781) [EFX-0200]
+WARNING  : Removing redundant signal : a_rst_i. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:3325) [EFX-0200]
+WARNING  : Removing redundant signal : clk_i. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:3328) [EFX-0200]
+WARNING  : Removing redundant signal : width2depth.width[31:0]. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:3565) [EFX-0200]
+WARNING  : Removing redundant signal : width2depth[31:0]. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:3564) [EFX-0200]
+WARNING  : Removing redundant signal : rddepthcompute.rd_width[31:0]. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:3590) [EFX-0200]
+WARNING  : Removing redundant signal : rddepthcompute.wr_width[31:0]. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:3589) [EFX-0200]
+WARNING  : Removing redundant signal : rddepthcompute.wr_depth[31:0]. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:3588) [EFX-0200]
+WARNING  : Removing redundant signal : rddepthcompute[31:0]. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:3587) [EFX-0200]
+WARNING  : Removing redundant signal : rdwidthcompute.wr_width[31:0]. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:3573) [EFX-0200]
+WARNING  : Removing redundant signal : rdwidthcompute.asym_option[31:0]. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:3572) [EFX-0200]
+WARNING  : (The above message was generated too many times, subsequent similar messages will be muted.) [EFX-0200]
+INFO     : ... Memory 'ram' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:1580) [EFX-0677]
+INFO     : ... Memory 'ram' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:1580) [EFX-0677]
+INFO     : ... Memory 'ram' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:3652) [EFX-0677]
+WARNING  : Re-wiring to GND non-driven net/port 'a_rst_i' in module 'efx_fifo_top_dc13612a41d14b64a60c05045f64d9b7(FAMILY="TITANIUM",BYPASS_RESET_SYNC=1,DEPTH=64,DATA_WIDTH=1,PIPELINE_REG=0,OPTIONAL_FLAGS=0,OUTPUT_REG=1,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=62,PROG_FULL_NEGATE=62,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=2)'. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:4885) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port 'clk_i' in module 'efx_fifo_top_dc13612a41d14b64a60c05045f64d9b7(FAMILY="TITANIUM",BYPASS_RESET_SYNC=1,DEPTH=64,DATA_WIDTH=1,PIPELINE_REG=0,OPTIONAL_FLAGS=0,OUTPUT_REG=1,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=62,PROG_FULL_NEGATE=62,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=2)'. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:4885) [EFX-0201]
+INFO     : Module Instance 'bram_u2' input pin 'wr_en_i' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'bram_u2' input pin 'rd_en_i' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'bram_u1' input pin 'wr_en_i' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'bram_u1' input pin 'rd_en_i' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'bram_u0' input pin 'wr_en_i' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'bram_u0' input pin 'rd_en_i' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wclk' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[0]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[1]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[2]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[3]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[4]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[5]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[6]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[7]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[8]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[9]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[10]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[11]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[12]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[13]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[14]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[15]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[16]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[17]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[18]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[19]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[20]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[21]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[22]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[23]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[24]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[25]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[26]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[27]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[28]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[29]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[30]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[31]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[32]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[33]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[34]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[35]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[36]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[37]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[38]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[39]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[40]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[41]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[42]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[43]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[44]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[45]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[46]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[47]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[48]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[49]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[50]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[51]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[52]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[53]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[54]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[55]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[56]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[57]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[58]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[59]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[60]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[61]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[62]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[63]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[64]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[65]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[66]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[67]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[68]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[69]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[70]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'wdata[71]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'waddr[0]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'waddr[1]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'waddr[2]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'waddr[3]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'waddr[4]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'waddr[5]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'waddr[6]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'waddr[7]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'waddr[8]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 'we' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'map_ram' input pin 're' is tied to constant (=1). [EFX-0266]
+WARNING  : Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[31]' in module 'ddr_3_controller_dc13612a41d14b64a60c05045f64d9b7'. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:1441) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[30]' in module 'ddr_3_controller_dc13612a41d14b64a60c05045f64d9b7'. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:1441) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[29]' in module 'ddr_3_controller_dc13612a41d14b64a60c05045f64d9b7'. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:1441) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[28]' in module 'ddr_3_controller_dc13612a41d14b64a60c05045f64d9b7'. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:1441) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[27]' in module 'ddr_3_controller_dc13612a41d14b64a60c05045f64d9b7'. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:1441) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[26]' in module 'ddr_3_controller_dc13612a41d14b64a60c05045f64d9b7'. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:1441) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[25]' in module 'ddr_3_controller_dc13612a41d14b64a60c05045f64d9b7'. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:1441) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net/port 'r_rd_fifo_wr_en_p[24]' in module 'ddr_3_controller_dc13612a41d14b64a60c05045f64d9b7'. (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:1441) [EFX-0201]
+WARNING  : (The above message was generated too many times, subsequent similar messages will be muted.) [EFX-0201]
+INFO     : Module Instance 'fifo_rdpush' input pin 'io_push_payload[0]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'fifo_rdpush' input pin 'io_pop_ready' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'fifo_ack' input pin 'io_pop_ready' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'mux0' input pin 'b_rd_en' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'phase_u0' input pin 'pll_sel[0]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'phase_u0' input pin 'pll_sel[1]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'phase_u0' input pin 'pll_sel[2]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'phase_u0' input pin 'pll_sel[3]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'phase_u0' input pin 'pll_sel[4]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'inst_arburst_fifo' input pin 'I_Wr_Data[2]' is tied to constant (=0). [EFX-0266]
+INFO     : (The above message was generated too many times, subsequent similar messages will be muted.) [EFX-0266]
+INFO     : ... Memory 'ram' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\ip\W0_FIFO_16\W0_FIFO_16.sv:667) [EFX-0677]
+INFO     : ... Memory 'source_ram' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v:31) [EFX-0677]
+INFO     : ... Memory 'display_ram' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v:32) [EFX-0677]
+INFO     : ... Memory 'g_ram.memory' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_stream_delay.v:23) [EFX-0677]
+INFO     : ... Memory 'g_ram.memory' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_stream_delay.v:23) [EFX-0677]
+INFO     : ... Memory 'g_ram.memory' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_stream_delay.v:23) [EFX-0677]
+INFO     : ... Memory 'line1' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_window3x3.v:24) [EFX-0677]
+INFO     : ... Memory 'line2' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_window3x3.v:25) [EFX-0677]
+INFO     : ... Memory 'line1' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_window3x3.v:24) [EFX-0677]
+INFO     : ... Memory 'line2' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_window3x3.v:25) [EFX-0677]
+INFO     : ... Memory 'mag_line0' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_canny_core.v:215) [EFX-0677]
+INFO     : ... Memory 'mag_line1' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_canny_core.v:216) [EFX-0677]
+INFO     : ... Memory 'state_line0' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_canny_core.v:369) [EFX-0677]
+INFO     : ... Memory 'state_line1' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_canny_core.v:370) [EFX-0677]
+INFO     : ... Memory 'g_ram.memory' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_stream_delay.v:23) [EFX-0677]
+INFO     : ... Memory 'g_ram.memory' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_stream_delay.v:23) [EFX-0677]
+INFO     : ... Memory 'g_ram.memory' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_stream_delay.v:23) [EFX-0677]
+INFO     : ... Memory 'line1' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_binary_morph3x3.v:20) [EFX-0677]
+INFO     : ... Memory 'line2' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_binary_morph3x3.v:20) [EFX-0677]
+INFO     : ... Memory 'line1' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_binary_morph3x3.v:20) [EFX-0677]
+INFO     : ... Memory 'line2' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_binary_morph3x3.v:20) [EFX-0677]
+INFO     : ... Memory 'g_ram.memory' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_stream_delay.v:23) [EFX-0677]
+INFO     : ... Memory 'g_ram.memory' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_stream_delay.v:23) [EFX-0677]
+INFO     : ... Memory 'g_ram.memory' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_stream_delay.v:23) [EFX-0677]
+INFO     : ... Memory 'g_ram.memory' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_stream_delay.v:23) [EFX-0677]
+INFO     : ... Memory 'g_ram.memory' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_stream_delay.v:23) [EFX-0677]
+INFO     : ... Memory 'g_ram.memory' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_stream_delay.v:23) [EFX-0677]
+INFO     : ... Memory 'g_ram.memory' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_stream_delay.v:23) [EFX-0677]
+INFO     : ... Memory 'g_ram.memory' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_stream_delay.v:23) [EFX-0677]
+INFO     : ... Memory 'bitmap0' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:33) [EFX-0677]
+INFO     : ... Memory 'bitmap1' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:33) [EFX-0677]
+INFO     : ... Memory 'queue' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:51) [EFX-0677]
+INFO     : ... Memory 'row_min' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:81) [EFX-0677]
+INFO     : ... Memory 'row_max' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:81) [EFX-0677]
+INFO     : ... Memory 'work_x0' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:138) [EFX-0677]
+INFO     : ... Memory 'work_x1' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:138) [EFX-0677]
+INFO     : ... Memory 'work_y0' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:139) [EFX-0677]
+INFO     : ... Memory 'work_y1' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:139) [EFX-0677]
+INFO     : ... Memory 'work_kind' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:140) [EFX-0677]
+INFO     : ... Memory 'display_x0' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:141) [EFX-0677]
+INFO     : ... Memory 'display_x1' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:141) [EFX-0677]
+INFO     : ... Memory 'display_y0' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:142) [EFX-0677]
+INFO     : ... Memory 'display_y1' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:142) [EFX-0677]
+INFO     : ... Memory 'display_kind' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:143) [EFX-0677]
+INFO     : ... Memory 'profiles' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:146) [EFX-0677]
+INFO     : ... Memory 'profile_cache' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:150) [EFX-0677]
+INFO     : ... Memory 'profile_above' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:152) [EFX-0677]
+INFO     : ... Memory 'profile_below' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:152) [EFX-0677]
+INFO     : ... Memory 'work_misses' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:156) [EFX-0677]
+INFO     : ... Memory 'display_misses' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:156) [EFX-0677]
+INFO     : ... Memory 'work_stable' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:196) [EFX-0677]
+INFO     : ... Memory 'display_candidate' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:196) [EFX-0677]
+INFO     : ... Memory 'work_hits' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:197) [EFX-0677]
+INFO     : ... Memory 'display_hits' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:197) [EFX-0677]
+INFO     : ... Memory 'rows' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_overlay.v:28) [EFX-0677]
+INFO     : ... Memory 'rows' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:1011) [EFX-0677]
+INFO     : ... Memory 'gaps' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:1017) [EFX-0677]
+INFO     : ... Memory 'recent' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:1019) [EFX-0677]
+INFO     : ... Memory 'dead' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:1021) [EFX-0677]
+INFO     : ... Memory 'sums' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:115) [EFX-0677]
+INFO     : ... Memory 'counts' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:117) [EFX-0677]
+INFO     : ... Memory 'measured' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:120) [EFX-0677]
+INFO     : ... Memory 'anchors' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:121) [EFX-0677]
+INFO     : ... Memory 'fit' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:121) [EFX-0677]
+INFO     : ... Memory 'observed' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:122) [EFX-0677]
+INFO     : ... Memory 'accepted' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:122) [EFX-0677]
+INFO     : ... Memory 'initialized' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:122) [EFX-0677]
+INFO     : ... Memory 'support' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:123) [EFX-0677]
+INFO     : ... Memory 'variance' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:124) [EFX-0677]
+INFO     : ... Memory 'misses' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:126) [EFX-0677]
+INFO     : ... Memory 'row_first' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:134) [EFX-0677]
+INFO     : ... Memory 'row_last' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:134) [EFX-0677]
+INFO     : ... Memory 'first_y' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:135) [EFX-0677]
+INFO     : ... Memory 'last_y' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:135) [EFX-0677]
+INFO     : ... Memory 'road_rows' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:358) [EFX-0677]
+INFO     : ... Memory 'g_ram.memory' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_stream_delay.v:23) [EFX-0677]
+INFO     : ... Memory 'g_ram.memory' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_stream_delay.v:23) [EFX-0677]
+INFO     : ... Memory 'left_mem' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_split_display.v:9) [EFX-0677]
+INFO     : ... Memory 'right_mem' is not initialized, assuming empty initial contents. (D:\FPGA_C4_Submission\src\isp\video_split_display.v:9) [EFX-0677]
+INFO     : ... Pre-synthesis checks end (Real time : 0s)
+INFO     : ... NameSpace init begin
+INFO     : ... NameSpace init end (Real time : 0s)
+INFO     : ... Mapping design "sys_top"
+INFO     : ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_dc13612a41d14b64a60c05045f64d9b7(DATA_WIDTH=8,DATA_DEPTH=32)" begin
+INFO     : ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_dc13612a41d14b64a60c05045f64d9b7(DATA_WIDTH=8,DATA_DEPTH=32)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_dc13612a41d14b64a60c05045f64d9b7(DATA_DEPTH=32)" begin
+INFO     : ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_dc13612a41d14b64a60c05045f64d9b7(DATA_DEPTH=32)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_dc13612a41d14b64a60c05045f64d9b7(DATA_WIDTH=48,DATA_DEPTH=32)" begin
+INFO     : ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_dc13612a41d14b64a60c05045f64d9b7(DATA_WIDTH=48,DATA_DEPTH=32)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "native_mux_dc13612a41d14b64a60c05045f64d9b7" begin
+INFO     : ... Hierarchical pre-synthesis "native_mux_dc13612a41d14b64a60c05045f64d9b7" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "reset_sub_dc13612a41d14b64a60c05045f64d9b7(OUT_RST_ACTIVE="LOW",CYCLE=4)" begin
+INFO     : ... Hierarchical pre-synthesis "reset_sub_dc13612a41d14b64a60c05045f64d9b7(OUT_RST_ACTIVE="LOW",CYCLE=4)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "reset_ctrl_dc13612a41d14b64a60c05045f64d9b7(NUM_RST=4,CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" begin
+INFO     : ... Hierarchical pre-synthesis "reset_ctrl_dc13612a41d14b64a60c05045f64d9b7(NUM_RST=4,CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "reset_ctrl_dc13612a41d14b64a60c05045f64d9b7(CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" begin
+INFO     : ... Hierarchical pre-synthesis "reset_ctrl_dc13612a41d14b64a60c05045f64d9b7(CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "buffercc_dc13612a41d14b64a60c05045f64d9b7" begin
+INFO     : ... Hierarchical pre-synthesis "buffercc_dc13612a41d14b64a60c05045f64d9b7" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "buffercc_1_dc13612a41d14b64a60c05045f64d9b7" begin
+INFO     : ... Hierarchical pre-synthesis "buffercc_1_dc13612a41d14b64a60c05045f64d9b7" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_dc13612a41d14b64a60c05045f64d9b7(DATA_WIDTH=32)" begin
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_dc13612a41d14b64a60c05045f64d9b7(DATA_WIDTH=32)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_dc13612a41d14b64a60c05045f64d9b7(DATA_WIDTH=144)" begin
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_dc13612a41d14b64a60c05045f64d9b7(DATA_WIDTH=144)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_dc13612a41d14b64a60c05045f64d9b7(DATA_WIDTH=1)" begin
+WARNING  : Mapping into logic memory block 'ram' (64 bits) (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:1580) because size is too small (<=64) [EFX-0657]
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_dc13612a41d14b64a60c05045f64d9b7(DATA_WIDTH=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ram_dc13612a41d14b64a60c05045f64d9b7(FAMILY="TITANIUM",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=128,RDATA_WIDTH=128,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ram_dc13612a41d14b64a60c05045f64d9b7(FAMILY="TITANIUM",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=128,RDATA_WIDTH=128,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_bin2gray_dc13612a41d14b64a60c05045f64d9b7(WIDTH=7)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_bin2gray_dc13612a41d14b64a60c05045f64d9b7(WIDTH=7)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_asyncreg_dc13612a41d14b64a60c05045f64d9b7(WIDTH=7,ACTIVE_LOW=0,OFF_ASSERTION=1)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_asyncreg_dc13612a41d14b64a60c05045f64d9b7(WIDTH=7,ACTIVE_LOW=0,OFF_ASSERTION=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_dc13612a41d14b64a60c05045f64d9b7(WIDTH=2)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_dc13612a41d14b64a60c05045f64d9b7(WIDTH=2)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_dc13612a41d14b64a60c05045f64d9b7(WIDTH=3)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_dc13612a41d14b64a60c05045f64d9b7(WIDTH=3)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_dc13612a41d14b64a60c05045f64d9b7(WIDTH=4)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_dc13612a41d14b64a60c05045f64d9b7(WIDTH=4)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_dc13612a41d14b64a60c05045f64d9b7" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_dc13612a41d14b64a60c05045f64d9b7" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_dc13612a41d14b64a60c05045f64d9b7(WIDTH=6)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_dc13612a41d14b64a60c05045f64d9b7(WIDTH=6)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_dc13612a41d14b64a60c05045f64d9b7(WIDTH=7)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_dc13612a41d14b64a60c05045f64d9b7(WIDTH=7)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ctl_dc13612a41d14b64a60c05045f64d9b7(SYNC_CLK=0,MODE="FWFT",WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PROG_FULL_ASSERT=33,PROG_FULL_NEGATE=33,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1,OVERFLOW_PROTECT=1,UNDERFLOW_PROTECT=1)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ctl_dc13612a41d14b64a60c05045f64d9b7(SYNC_CLK=0,MODE="FWFT",WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PROG_FULL_ASSERT=33,PROG_FULL_NEGATE=33,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1,OVERFLOW_PROTECT=1,UNDERFLOW_PROTECT=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_top_dc13612a41d14b64a60c05045f64d9b7(FAMILY="TITANIUM",BYPASS_RESET_SYNC=1,MODE="FWFT",DEPTH=64,DATA_WIDTH=128,OUTPUT_REG=1,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=33,PROG_FULL_NEGATE=33,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=2)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_top_dc13612a41d14b64a60c05045f64d9b7(FAMILY="TITANIUM",BYPASS_RESET_SYNC=1,MODE="FWFT",DEPTH=64,DATA_WIDTH=128,OUTPUT_REG=1,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=33,PROG_FULL_NEGATE=33,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=2)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_dc13612a41d14b64a60c05045f64d9b7(DATA_WIDTH=2)" begin
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_dc13612a41d14b64a60c05045f64d9b7(DATA_WIDTH=2)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_dc13612a41d14b64a60c05045f64d9b7(DATA_WIDTH=52)" begin
+INFO     : ... Hierarchical pre-synthesis "streamfifocc64_dc13612a41d14b64a60c05045f64d9b7(DATA_WIDTH=52)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ram_dc13612a41d14b64a60c05045f64d9b7(FAMILY="TITANIUM",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=1,RDATA_WIDTH=1,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ram_dc13612a41d14b64a60c05045f64d9b7(FAMILY="TITANIUM",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=1,RDATA_WIDTH=1,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ctl_dc13612a41d14b64a60c05045f64d9b7(SYNC_CLK=0,WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PIPELINE_REG=0,ALMOST_FLAG=0,PROG_FULL_ASSERT=62,PROG_FULL_NEGATE=62,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1,HANDSHAKE_FLAG=0,OVERFLOW_PROTECT=1,UNDERFLOW_PROTECT=1)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ctl_dc13612a41d14b64a60c05045f64d9b7(SYNC_CLK=0,WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PIPELINE_REG=0,ALMOST_FLAG=0,PROG_FULL_ASSERT=62,PROG_FULL_NEGATE=62,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1,HANDSHAKE_FLAG=0,OVERFLOW_PROTECT=1,UNDERFLOW_PROTECT=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_top_dc13612a41d14b64a60c05045f64d9b7(FAMILY="TITANIUM",BYPASS_RESET_SYNC=1,DEPTH=64,DATA_WIDTH=1,PIPELINE_REG=0,OPTIONAL_FLAGS=0,OUTPUT_REG=1,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=62,PROG_FULL_NEGATE=62,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=2)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_top_dc13612a41d14b64a60c05045f64d9b7(FAMILY="TITANIUM",BYPASS_RESET_SYNC=1,DEPTH=64,DATA_WIDTH=1,PIPELINE_REG=0,OPTIONAL_FLAGS=0,OUTPUT_REG=1,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=62,PROG_FULL_NEGATE=62,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=2)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "bram_wrapper_fifo_dc13612a41d14b64a60c05045f64d9b7" begin
+INFO     : ... Hierarchical pre-synthesis "bram_wrapper_fifo_dc13612a41d14b64a60c05045f64d9b7" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "user_dual_port_ram_dc13612a41d14b64a60c05045f64d9b7(DATA_WIDTH=72,OUTPUT_REG="FALSE",RAM_INIT_FILE="ddr3_controller.bin")" begin
+INFO     : ... Hierarchical pre-synthesis "user_dual_port_ram_dc13612a41d14b64a60c05045f64d9b7(DATA_WIDTH=72,OUTPUT_REG="FALSE",RAM_INIT_FILE="ddr3_controller.bin")" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "ddr_3_controller_dc13612a41d14b64a60c05045f64d9b7" begin
+INFO     : ... Hierarchical pre-synthesis "ddr_3_controller_dc13612a41d14b64a60c05045f64d9b7" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "controller_top_dc13612a41d14b64a60c05045f64d9b7" begin
+INFO     : ... Hierarchical pre-synthesis "controller_top_dc13612a41d14b64a60c05045f64d9b7" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "reset_sub_dc13612a41d14b64a60c05045f64d9b7(OUT_RST_ACTIVE="LOW",CYCLE=5)" begin
+INFO     : ... Hierarchical pre-synthesis "reset_sub_dc13612a41d14b64a60c05045f64d9b7(OUT_RST_ACTIVE="LOW",CYCLE=5)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "reset_ctrl_dc13612a41d14b64a60c05045f64d9b7(NUM_RST=2,CYCLE=5,IN_RST_ACTIVE=2'b0,OUT_RST_ACTIVE=2'b0)" begin
+INFO     : ... Hierarchical pre-synthesis "reset_ctrl_dc13612a41d14b64a60c05045f64d9b7(NUM_RST=2,CYCLE=5,IN_RST_ACTIVE=2'b0,OUT_RST_ACTIVE=2'b0)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "phase_shift_dc13612a41d14b64a60c05045f64d9b7" begin
+INFO     : ... Hierarchical pre-synthesis "phase_shift_dc13612a41d14b64a60c05045f64d9b7" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "top_dc13612a41d14b64a60c05045f64d9b7" begin
+INFO     : ... Hierarchical pre-synthesis "top_dc13612a41d14b64a60c05045f64d9b7" end (Real time : 1s)
+INFO     : ... Hierarchical pre-synthesis "efx_ddr3_axi_dc13612a41d14b64a60c05045f64d9b7" begin
+INFO     : ... Hierarchical pre-synthesis "efx_ddr3_axi_dc13612a41d14b64a60c05045f64d9b7" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_ddr3_soft_controller_dc13612a41d14b64a60c05045f64d9b7" begin
+INFO     : ... Hierarchical pre-synthesis "efx_ddr3_soft_controller_dc13612a41d14b64a60c05045f64d9b7" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "DdrCtrl" begin
+INFO     : ... Hierarchical pre-synthesis "DdrCtrl" end (Real time : 1s)
+INFO     : ... Hierarchical pre-synthesis "AXI4_AWARMux(AID_LEN=4)" begin
+INFO     : ... Hierarchical pre-synthesis "AXI4_AWARMux(AID_LEN=4)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "I2C_AR0135_1280720_Config" begin
+INFO     : ... Hierarchical pre-synthesis "I2C_AR0135_1280720_Config" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "ar0135_init" begin
+INFO     : ... Hierarchical pre-synthesis "ar0135_init" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "ar0135_capture" begin
+INFO     : ... Hierarchical pre-synthesis "ar0135_capture" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "ddr_frame_store" begin
+INFO     : ... Hierarchical pre-synthesis "ddr_frame_store" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_asyncreg_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=1,ACTIVE_LOW=0,RST_VALUE=1)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_asyncreg_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=1,ACTIVE_LOW=0,RST_VALUE=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_resetsync_3a5a8130f9dc48d5847ad155af31e06b(ACTIVE_LOW=0)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_resetsync_3a5a8130f9dc48d5847ad155af31e06b(ACTIVE_LOW=0)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ram_3a5a8130f9dc48d5847ad155af31e06b(FAMILY="TITANIUM",WR_DEPTH=4096,WDATA_WIDTH=16,RDATA_WIDTH=128,WADDR_WIDTH=12,OUTPUT_REG=0,RAM_MUX_RATIO=8)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ram_3a5a8130f9dc48d5847ad155af31e06b(FAMILY="TITANIUM",WR_DEPTH=4096,WDATA_WIDTH=16,RDATA_WIDTH=128,WADDR_WIDTH=12,OUTPUT_REG=0,RAM_MUX_RATIO=8)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_bin2gray_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=10)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_bin2gray_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=10)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_asyncreg_3a5a8130f9dc48d5847ad155af31e06b(ASYNC_STAGE=3,WIDTH=10,ACTIVE_LOW=0,OFF_ASSERTION=1)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_asyncreg_3a5a8130f9dc48d5847ad155af31e06b(ASYNC_STAGE=3,WIDTH=10,ACTIVE_LOW=0,OFF_ASSERTION=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=2)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=2)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=3)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=3)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=4)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=4)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=6)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=6)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=7)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=7)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=8)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=8)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=9)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=9)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=10)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=10)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_bin2gray_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=13)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_bin2gray_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=13)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_asyncreg_3a5a8130f9dc48d5847ad155af31e06b(ASYNC_STAGE=3,WIDTH=13,ACTIVE_LOW=0,OFF_ASSERTION=1)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_asyncreg_3a5a8130f9dc48d5847ad155af31e06b(ASYNC_STAGE=3,WIDTH=13,ACTIVE_LOW=0,OFF_ASSERTION=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=11)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=11)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=12)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=12)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=13)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3a5a8130f9dc48d5847ad155af31e06b(WIDTH=13)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ctl_3a5a8130f9dc48d5847ad155af31e06b_renamed_due_excessive_length_1" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_ctl_3a5a8130f9dc48d5847ad155af31e06b_renamed_due_excessive_length_1" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_top_3a5a8130f9dc48d5847ad155af31e06b(FAMILY="TITANIUM",SYNC_STAGE=3,MODE="FWFT",DEPTH=4096,DATA_WIDTH=16,OPTIONAL_FLAGS=0,PROGRAMMABLE_FULL="STATIC_SINGLE",PROG_FULL_ASSERT=1536,PROG_FULL_NEGATE=1536,PROGRAMMABLE_EMPTY="STATIC_SINGLE",PROG_EMPTY_ASSERT=127,PROG_EMPTY_NEGATE=128,ASYM_WIDTH_RATIO=7)" begin
+INFO     : ... Hierarchical pre-synthesis "efx_fifo_top_3a5a8130f9dc48d5847ad155af31e06b(FAMILY="TITANIUM",SYNC_STAGE=3,MODE="FWFT",DEPTH=4096,DATA_WIDTH=16,OPTIONAL_FLAGS=0,PROGRAMMABLE_FULL="STATIC_SINGLE",PROG_FULL_ASSERT=1536,PROG_FULL_NEGATE=1536,PROGRAMMABLE_EMPTY="STATIC_SINGLE",PROG_EMPTY_ASSERT=127,PROG_EMPTY_NEGATE=128,ASYM_WIDTH_RATIO=7)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "W0_FIFO_16" begin
+INFO     : ... Hierarchical pre-synthesis "W0_FIFO_16" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "unsigned_divider" begin
+INFO     : ... Hierarchical pre-synthesis "unsigned_divider" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "axi_transform_reader(BASE_ADDR=32'b0,FRAME_BITS=4,COMPARE_ENABLE=1)" begin
+WARNING  : Mapping into logic multiplier 'mult_537'. (D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v:147) [EFX-0666]
+WARNING  : Mapping into logic multiplier 'mult_646'. (D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v:238) [EFX-0666]
+WARNING  : Mapping into logic multiplier 'mult_535'. (D:\FPGA_C4_Submission\src\isp\axi_transform_reader.v:146) [EFX-0666]
+INFO     : ... Hierarchical pre-synthesis "axi_transform_reader(BASE_ADDR=32'b0,FRAME_BITS=4,COMPARE_ENABLE=1)" end (Real time : 2s)
+INFO     : ... Hierarchical pre-synthesis "axi4_ctrl(C_FRAME_STORE=1,C_TRANSFORM=1,C_ID_LEN=4,C_RD_END_ADDR=1843200,C_W_WIDTH=16,C_R_WIDTH=16)" begin
+INFO     : ... Hierarchical pre-synthesis "axi4_ctrl(C_FRAME_STORE=1,C_TRANSFORM=1,C_ID_LEN=4,C_RD_END_ADDR=1843200,C_W_WIDTH=16,C_R_WIDTH=16)" end (Real time : 1s)
+INFO     : ... Hierarchical pre-synthesis "lcd_driver" begin
+INFO     : ... Hierarchical pre-synthesis "lcd_driver" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "uart_rx" begin
+INFO     : ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "uart_tx" begin
+INFO     : ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "key_debounce" begin
+INFO     : ... Hierarchical pre-synthesis "key_debounce" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "threshold_cdc(RESET_VALUE=0)" begin
+INFO     : ... Hierarchical pre-synthesis "threshold_cdc(RESET_VALUE=0)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "threshold_cdc(WIDTH=24,RESET_VALUE=24'b0111100000000010100)" begin
+INFO     : ... Hierarchical pre-synthesis "threshold_cdc(WIDTH=24,RESET_VALUE=24'b0111100000000010100)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "threshold_cdc(WIDTH=10,RESET_VALUE=0)" begin
+INFO     : ... Hierarchical pre-synthesis "threshold_cdc(WIDTH=10,RESET_VALUE=0)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "threshold_cdc(WIDTH=16,RESET_VALUE=16'b011001000000000)" begin
+INFO     : ... Hierarchical pre-synthesis "threshold_cdc(WIDTH=16,RESET_VALUE=16'b011001000000000)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "threshold_cdc(WIDTH=56,RESET_VALUE=56'b011000011000000000001010110100000000011110000000000000)" begin
+INFO     : ... Hierarchical pre-synthesis "threshold_cdc(WIDTH=56,RESET_VALUE=56'b011000011000000000001010110100000000011110000000000000)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "threshold_cdc(WIDTH=56,RESET_VALUE=56'b010100001100001000000000000001000001000000001010000000)" begin
+INFO     : ... Hierarchical pre-synthesis "threshold_cdc(WIDTH=56,RESET_VALUE=56'b010100001100001000000000000001000001000000001010000000)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "threshold_cdc(WIDTH=56,RESET_VALUE=56'b0110000000001000000001000110000000001000010100000000110)" begin
+INFO     : ... Hierarchical pre-synthesis "threshold_cdc(WIDTH=56,RESET_VALUE=56'b0110000000001000000001000110000000001000010100000000110)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "threshold_cdc(WIDTH=56,RESET_VALUE=56'b0101101000000001010000000000000000)" begin
+INFO     : ... Hierarchical pre-synthesis "threshold_cdc(WIDTH=56,RESET_VALUE=56'b0101101000000001010000000000000000)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "threshold_cdc(WIDTH=35,RESET_VALUE=35'b01000000000000000000000100000100100)" begin
+INFO     : ... Hierarchical pre-synthesis "threshold_cdc(WIDTH=35,RESET_VALUE=35'b01000000000000000000000100000100100)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "uart_image_control(LANE_ENABLE=1,SNAPSHOT_ENABLE=1,CAMERA_ENABLE=1,DUAL_CANNY_ENABLE=1,MORPH_ENABLE=1,MORPH_EXT_ENABLE=1,FEATURE_ENABLE=1)" begin
+INFO     : ... Hierarchical pre-synthesis "uart_image_control(LANE_ENABLE=1,SNAPSHOT_ENABLE=1,CAMERA_ENABLE=1,DUAL_CANNY_ENABLE=1,MORPH_ENABLE=1,MORPH_EXT_ENABLE=1,FEATURE_ENABLE=1)" end (Real time : 1s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=3,DELAY=35)" begin
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=3,DELAY=35)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_rgb2gray" begin
+INFO     : ... Hierarchical pre-synthesis "video_rgb2gray" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=24,DELAY=35)" begin
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=24,DELAY=35)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=8,DELAY=32)" begin
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=8,DELAY=32)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_window3x3" begin
+INFO     : ... Hierarchical pre-synthesis "video_window3x3" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_gaussian3x3" begin
+INFO     : ... Hierarchical pre-synthesis "video_gaussian3x3" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "sort3_8bit" begin
+INFO     : ... Hierarchical pre-synthesis "sort3_8bit" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_median3x3" begin
+INFO     : ... Hierarchical pre-synthesis "video_median3x3" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_window3x3(GUARD_XY=8)" begin
+INFO     : ... Hierarchical pre-synthesis "video_window3x3(GUARD_XY=8)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_canny_core" begin
+INFO     : ... Hierarchical pre-synthesis "video_canny_core" end (Real time : 1s)
+INFO     : ... Hierarchical pre-synthesis "sobeledge_8d_window(GRAYSCALE_OUTPUT=0)" begin
+INFO     : ... Hierarchical pre-synthesis "sobeledge_8d_window(GRAYSCALE_OUTPUT=0)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_sobel2" begin
+INFO     : ... Hierarchical pre-synthesis "video_sobel2" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=8,DELAY=16)" begin
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=8,DELAY=16)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(DELAY=16)" begin
+WARNING  : Mapping into logic memory block 'g_ram.memory' (15 bits) (D:\FPGA_C4_Submission\src\isp\video_stream_delay.v:23) because size is too small (<=64) [EFX-0657]
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(DELAY=16)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=6,DELAY=1652,RESET_VALUE=6'b100000)" begin
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=6,DELAY=1652,RESET_VALUE=6'b100000)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_binary_morph3x3" begin
+INFO     : ... Hierarchical pre-synthesis "video_binary_morph3x3" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_binary_morph3x3(STAGE=1)" begin
+INFO     : ... Hierarchical pre-synthesis "video_binary_morph3x3(STAGE=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_sobel_morph" begin
+INFO     : ... Hierarchical pre-synthesis "video_sobel_morph" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "sobeledge_8d_window(ADAPTIVE_THRESHOLD=0)" begin
+INFO     : ... Hierarchical pre-synthesis "sobeledge_8d_window(ADAPTIVE_THRESHOLD=0)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=10,DELAY=1)" begin
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=10,DELAY=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=8,DELAY=4)" begin
+WARNING  : Mapping into logic memory block 'g_ram.memory' (24 bits) (D:\FPGA_C4_Submission\src\isp\video_stream_delay.v:23) because size is too small (<=64) [EFX-0657]
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=8,DELAY=4)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=24,DELAY=1660)" begin
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=24,DELAY=1660)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_sharpen" begin
+INFO     : ... Hierarchical pre-synthesis "video_sharpen" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=34,DELAY=23)" begin
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=34,DELAY=23)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=34,DELAY=1651)" begin
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=34,DELAY=1651)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=34,DELAY=3302)" begin
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=34,DELAY=3302)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=56,DELAY=3306,RESET_VALUE=56'b01100)" begin
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=56,DELAY=3306,RESET_VALUE=56'b01100)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=2,DELAY=3306)" begin
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=2,DELAY=3306)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_edge_palette" begin
+INFO     : ... Hierarchical pre-synthesis "video_edge_palette" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(DELAY=3306)" begin
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(DELAY=3306)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_shape_font" begin
+INFO     : ... Hierarchical pre-synthesis "video_shape_font" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_shape_recognizer(VS_ACTIVE=1'b0)" begin
+WARNING  : Mapping into logic memory block 'work_x0' (64 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:138) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'work_x1' (64 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:138) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'work_y0' (56 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:139) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'work_y1' (56 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:139) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'work_kind' (24 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:140) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'display_x0' (64 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:141) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'display_x1' (64 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:141) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'display_y0' (56 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:142) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'display_y1' (56 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:142) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'display_kind' (24 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:143) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'work_misses' (16 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:156) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'display_misses' (16 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:156) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'work_stable' (24 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:196) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'display_candidate' (24 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:196) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'work_hits' (16 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:197) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'display_hits' (16 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:197) because size is too small (<=64) [EFX-0657]
+INFO     : ... Hierarchical pre-synthesis "video_shape_recognizer(VS_ACTIVE=1'b0)" end (Real time : 1s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=24,DELAY=1)" begin
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=24,DELAY=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=8,DELAY=1)" begin
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=8,DELAY=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_lane_overlay" begin
+INFO     : ... Hierarchical pre-synthesis "video_lane_overlay" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "lane_inner_trace" begin
+WARNING  : Mapping into logic memory block 'gaps' (32 bits) (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:1017) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'dead' (2 bits) (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:1021) because size is too small (<=64) [EFX-0657]
+INFO     : ... Hierarchical pre-synthesis "lane_inner_trace" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_assist_font" begin
+INFO     : ... Hierarchical pre-synthesis "video_assist_font" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_lane_curve" begin
+WARNING  : Mapping into logic memory block 'observed' (24 bits) (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:122) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'accepted' (24 bits) (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:122) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'initialized' (24 bits) (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:122) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'misses' (16 bits) (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:126) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'first_y' (32 bits) (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:135) because size is too small (<=64) [EFX-0657]
+WARNING  : Mapping into logic memory block 'last_y' (32 bits) (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:135) because size is too small (<=64) [EFX-0657]
+INFO     : ... Hierarchical pre-synthesis "video_lane_curve" end (Real time : 4s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=2,DELAY=3308)" begin
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=2,DELAY=3308)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=4,DELAY=1650)" begin
+INFO     : ... Hierarchical pre-synthesis "video_stream_delay(WIDTH=4,DELAY=1650)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_split_display(VS_ACTIVE=1'b0)" begin
+INFO     : ... Hierarchical pre-synthesis "video_split_display(VS_ACTIVE=1'b0)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "video_processing(RUNTIME_FEATURES=1,SHAPE_SUPPORT=1,LANE_SUPPORT=1,SPLIT_SUPPORT=1)" begin
+INFO     : ... Hierarchical pre-synthesis "video_processing(RUNTIME_FEATURES=1,SHAPE_SUPPORT=1,LANE_SUPPORT=1,SPLIT_SUPPORT=1)" end (Real time : 4s)
+INFO     : ... Hierarchical pre-synthesis "tmds_channel" begin
+INFO     : ... Hierarchical pre-synthesis "tmds_channel" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "rgb2dvi(ENABLE_OSERDES=0)" begin
+INFO     : ... Hierarchical pre-synthesis "rgb2dvi(ENABLE_OSERDES=0)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "sys_top" begin
+WARNING  : Mapping into logic memory block 'u_video_processing/g_lane.u_curve/u_inner/recent' (512 bits) (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:1019) because it has all constant reader/writer. [EFX-0657]
+WARNING  : Mapping into logic memory block 'u_video_processing/g_lane.u_curve/row_last' (240 bits) (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:134) because it has async writer. [EFX-0657]
+WARNING  : Mapping into logic memory block 'u_video_processing/g_lane.u_curve/row_first' (240 bits) (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:134) because it has async writer. [EFX-0657]
+WARNING  : Mapping into logic memory block 'u_video_processing/g_lane.u_curve/variance' (384 bits) (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:124) because it has async writer. [EFX-0657]
+WARNING  : Mapping into logic memory block 'u_video_processing/g_lane.u_curve/support' (168 bits) (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:123) because it has async writer. [EFX-0657]
+WARNING  : Mapping into logic memory block 'u_video_processing/g_lane.u_curve/fit' (480 bits) (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:121) because it has async writer. [EFX-0657]
+WARNING  : Mapping into logic memory block 'u_video_processing/g_lane.u_curve/anchors' (480 bits) (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:121) because it has async writer. [EFX-0657]
+WARNING  : Mapping into logic memory block 'u_video_processing/g_lane.u_curve/measured' (576 bits) (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:120) because it has async writer. [EFX-0657]
+WARNING  : Mapping into logic memory block 'u_video_processing/g_lane.u_curve/counts' (168 bits) (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:117) because it has async writer. [EFX-0657]
+WARNING  : Mapping into logic memory block 'u_video_processing/g_lane.u_curve/sums' (768 bits) (D:\FPGA_C4_Submission\src\isp\video_lane_curve.v:115) because it has async writer. [EFX-0657]
+WARNING  : Mapping into logic memory block 'u_video_processing/g_shape.u_shapes/profile_cache' (128 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:150) because it has async writer. [EFX-0657]
+WARNING  : Mapping into logic memory block 'u_video_processing/g_shape.u_shapes/profile_above' (128 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:152) because it has async writer. [EFX-0657]
+WARNING  : Mapping into logic memory block 'u_video_processing/g_shape.u_shapes/profile_below' (128 bits) (D:\FPGA_C4_Submission\src\isp\video_shape_recognizer.v:152) because it has async writer. [EFX-0657]
+INFO     : ... Clock Enable Synthesis Performed on 9352 flops.
+INFO     : Cannot infer shift registers from 'ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/r_rd_fifo_wr_en_p[0]' (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:1441) to 'ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/r_rd_fifo_wr_en_p[17]' (D:\FPGA_C4_Submission\ip\DdrCtrl\DdrCtrl.sv:1441). Shift registers with both dynamic address and reset not supported. [EFX-0688]
+INFO     : ... Hierarchical pre-synthesis "sys_top" end (Real time : 9s)
+INFO     : ... Flat optimizations begin
+INFO     : ... Flat optimizations end (Real time : 0s)
+INFO     : ... Flat synthesis begin
+INFO     : ... Flat synthesis end (Real time : 0s)
+INFO     : ... Flat optimizations begin
+INFO     : ... Flat optimizations end (Real time : 0s)
+INFO     : ... Check and break combinational loops begin
+INFO     : ... Check and break combinational loops end (Real time : 0s)
+INFO     : ... Setup for logic synthesis begin
+INFO     : ... Setup for logic synthesis end (Real time : 1s)
+INFO     : ... LUT mapping begin
+INFO     : ... LS, strategy: 3, nd: 42126, ed: 139657, lv: 23, pw: 72242.39
+INFO     : ... LUT mapping end (Real time : 77s)
+INFO     : ... Post-synthesis Verific netlist creation begin
+INFO     : ... Post-synthesis Verific netlist creation end (Real time : 0s)
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(20): Input/inout port clk_24m is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(21): Input/inout port clk_25m is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(31): Input/inout port clk_pixel_2x is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(32): Input/inout port clk_pixel_10x is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(92): Input/inout port i_dqs_n_hi[1] is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(93): Input/inout port i_dqs_n_lo[1] is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(262): Input/inout port cmos_data[1] is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(266): Input/inout port cmos_ctl1_i is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(269): Input/inout port cmos_ctl2_i is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(272): Input/inout port cmos_ctl3_i is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(320): Input/inout port lcd_tp_sda_i is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(324): Input/inout port lcd_tp_scl_i is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(328): Input/inout port lcd_tp_int_i is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(348): Input/inout port lcd_b7_0_i[7] is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(349): Input/inout port lcd_g7_0_i[7] is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : D:\FPGA_C4_Submission\sys_top.v(350): Input/inout port lcd_r7_0_i[7] is unconnected. Place and route may remove this unconnected port. [VDB-8003]
+WARNING  : Found 40 warnings in the post-synthesis netlist.
+INFO     : VDB Netlist Checker took 0.0919656 seconds [FlowMsg::StageDuration]
+INFO     :     VDB Netlist Checker took 0.1875 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 497.096 MB, end = 497.168 MB, delta = 0.072 MB [FlowMsg::VMUsage]
+INFO     :     VDB Netlist Checker peak virtual memory usage = 541.384 MB [FlowMsg::VMUsage::Peak]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 515.612 MB, end = 515.76 MB, delta = 0.148 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 558.824 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Resource Summary 
+INFO     : ======================================= 
+INFO     : EFX_ADD                 : 	7690
+INFO     : EFX_LUT4                : 	41940
+INFO     : EFX_DSP48               : 	55
+INFO     : EFX_DSP24               : 	3
+INFO     : EFX_FF                  : 	16930
+INFO     : EFX_SRL8                : 	790
+INFO     : EFX_RAM10               : 	252
+INFO     : ======================================= 
+INFO     : ... Post-Map Verilog Writer begin
+INFO     : Writing netlist 'sys_top' to Verilog file 'D:/FPGA_C4_Submission/outflow/Ti60_AR0135.map.v' [VDB-1030]
+INFO     : ... Post-Map Verilog Writer end (Real time : 1s)
+INFO     : The entire flow of EFX_MAP took 118.8563511 seconds [FlowMsg::StageDuration]
+INFO     :     The entire flow of EFX_MAP took 147.59375 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : The entire flow of EFX_MAP virtual memory usage: begin = 19.088 MB, end = 548.06 MB, delta = 528.972 MB [FlowMsg::VMUsage]
+INFO     :     The entire flow of EFX_MAP peak virtual memory usage = 548.572 MB [FlowMsg::VMUsage::Peak]
+INFO     : The entire flow of EFX_MAP resident set memory usage: begin = 19.628 MB, end = 563.44 MB, delta = 543.812 MB [FlowMsg::RSSUsage]
+INFO     :     The entire flow of EFX_MAP peak resident set memory usage = 563.44 MB [FlowMsg::RSSUsage::Peak]

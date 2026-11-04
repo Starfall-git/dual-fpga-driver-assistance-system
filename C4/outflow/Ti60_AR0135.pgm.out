@@ -1,0 +1,30 @@
+INFO     : Elitestek FPGA Bitstream Generator.
+INFO     : Version: 2026.1.132.3.9 
+INFO     : Copyright (C) 2013 - 2026 Efinix, Inc. All rights reserved.
+INFO     : Compiled: May 29 2026.
+INFO     : Using source file "D:/FPGA_C4_Submission/work_pnr/Ti60_AR0135.lbf"
+INFO     : Generating HEX programming file for device "Ti60F225", family "Titanium"
+WARNING  : Warning at file , line 0, char 0: unable to open primary document entity 'D:/FPGA_C4_Submission/outflow/lpf.xsd'
+INFO     : Using periphery source file "D:/FPGA_C4_Submission/outflow/Ti60_AR0135.lpf"
+INFO     : Generating bit file: "D:/FPGA_C4_Submission/outflow/Ti60_AR0135.bit"
+INFO     : HEX Generation Options Summary:
+INFO     : 	Listing options specified to bitstream generation:
+INFO     : 	bitstream_compression                    = on
+INFO     : 	oscillator_clock_divider                 = DIV4
+INFO     : 	enable_external_master_clock             = off
+INFO     : 	spi_low_power_mode                       = off
+INFO     : 	active_capture_clk_edge                  = negedge
+INFO     : 	enable_remote_update                     = off
+INFO     : 	release_tri_then_reset                   = on
+INFO     : 	enable_seu_crc_check                     = off
+INFO     : 	seu_mode                                 = automatic
+INFO     : 	seu_wait_interval                        = 0xFFFFFF
+INFO     : 	jtag_usercode                            = 0xFFFFFFFF
+INFO     : 	io_weak_pullup                           = on
+INFO     : Finished generating "D:/FPGA_C4_Submission/outflow/Ti60_AR0135.hex"
+INFO     : Elitestek Bitstream Generator took 1.0364391 seconds [FlowMsg::StageDuration]
+INFO     :     Elitestek Bitstream Generator took 0.84375 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Elitestek Bitstream Generator virtual memory usage: begin = 2.652 MB, end = 11.632 MB, delta = 8.98 MB [FlowMsg::VMUsage]
+INFO     :     Elitestek Bitstream Generator peak virtual memory usage = 153.14 MB [FlowMsg::VMUsage::Peak]
+INFO     : Elitestek Bitstream Generator resident set memory usage: begin = 9.384 MB, end = 21.92 MB, delta = 12.536 MB [FlowMsg::RSSUsage]
+INFO     :     Elitestek Bitstream Generator peak resident set memory usage = 158.988 MB [FlowMsg::RSSUsage::Peak]

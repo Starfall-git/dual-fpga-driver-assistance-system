@@ -1,0 +1,75 @@
+/* Chinese 16x16 labels at 2x size, combinational ROM. */
+module video_shape_font(input wire [2:0] kind_i,input wire [6:0] x_i,input wire [4:0] y_i,output wire on_o);
+reg [47:0] row_bits;
+always @* begin
+ row_bits=0;
+ case({kind_i,y_i[4:1]})
+ 7'd16:row_bits=48'h7ffc08007f84;
+ 7'd17:row_bits=48'h00001fc02208;
+ 7'd18:row_bits=48'h000030c02230;
+ 7'd19:row_bits=48'h000020802260;
+ 7'd20:row_bits=48'h00007ff82200;
+ 7'd21:row_bits=48'h0000a108ffc6;
+ 7'd22:row_bits=48'h3ff82108220c;
+ 7'd23:row_bits=48'h00003ff82230;
+ 7'd24:row_bits=48'h000021082262;
+ 7'd25:row_bits=48'h000021082204;
+ 7'd26:row_bits=48'h00003ff84218;
+ 7'd27:row_bits=48'h000061084260;
+ 7'd28:row_bits=48'hfffe410882c0;
+ 7'd29:row_bits=48'h000081780000;
+ 7'd30:row_bits=48'h000000000000;
+ 7'd31:row_bits=48'h000000000000;
+ 7'd32:row_bits=48'h21fe7f840000;
+ 7'd33:row_bits=48'h610022080000;
+ 7'd34:row_bits=48'h7d0022300000;
+ 7'd35:row_bits=48'h91fc22600000;
+ 7'd36:row_bits=48'h110422000000;
+ 7'd37:row_bits=48'hff04ffc60000;
+ 7'd38:row_bits=48'h1104220c0000;
+ 7'd39:row_bits=48'h110422300000;
+ 7'd40:row_bits=48'h39fc22620000;
+ 7'd41:row_bits=48'h2d0422040000;
+ 7'd42:row_bits=48'h250042180000;
+ 7'd43:row_bits=48'h430042600000;
+ 7'd44:row_bits=48'h81fe82c00000;
+ 7'd45:row_bits=48'h000000000000;
+ 7'd46:row_bits=48'h000000000000;
+ 7'd47:row_bits=48'h000000000000;
+ 7'd48:row_bits=48'h7ffc7f840000;
+ 7'd49:row_bits=48'h400422080000;
+ 7'd50:row_bits=48'h4fe422300000;
+ 7'd51:row_bits=48'h482422600000;
+ 7'd52:row_bits=48'h4fe422000000;
+ 7'd53:row_bits=48'h4004ffc60000;
+ 7'd54:row_bits=48'h4fe4220c0000;
+ 7'd55:row_bits=48'h492422300000;
+ 7'd56:row_bits=48'h49a422620000;
+ 7'd57:row_bits=48'h4e6422040000;
+ 7'd58:row_bits=48'h501442180000;
+ 7'd59:row_bits=48'h7ffc42600000;
+ 7'd60:row_bits=48'h400482c00000;
+ 7'd61:row_bits=48'h000000000000;
+ 7'd62:row_bits=48'h000000000000;
+ 7'd63:row_bits=48'h000000000000;
+ 7'd64:row_bits=48'h08407f840000;
+ 7'd65:row_bits=48'h7ffe22080000;
+ 7'd66:row_bits=48'h094022300000;
+ 7'd67:row_bits=48'h3ffc22600000;
+ 7'd68:row_bits=48'h010022000000;
+ 7'd69:row_bits=48'hfffeffc60000;
+ 7'd70:row_bits=48'h0000220c0000;
+ 7'd71:row_bits=48'h323822300000;
+ 7'd72:row_bits=48'h6fec22620000;
+ 7'd73:row_bits=48'h9c6222040000;
+ 7'd74:row_bits=48'h23c042180000;
+ 7'd75:row_bits=48'h07e042600000;
+ 7'd76:row_bits=48'h781e82c00000;
+ 7'd77:row_bits=48'h000000000000;
+ 7'd78:row_bits=48'h000000000000;
+ 7'd79:row_bits=48'h000000000000;
+ default:row_bits=0;
+ endcase
+end
+assign on_o=(x_i<96) && row_bits[47-x_i[6:1]];
+endmodule

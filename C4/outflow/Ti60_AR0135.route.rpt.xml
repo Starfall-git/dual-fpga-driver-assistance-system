@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<efx:tool_report xmlns:efx="http://www.efinixinc.com/tool_report" date="2026-11-04T11:11:05+0800" project="Ti60_AR0135" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/tool_report tool_report.xsd">
+
+  <efx:group name="Interface">
+    <efx:group_data name="Missing Interface Pins" severity="info" value="53"/>
+    <efx:group_data name="Unassigned Core Pins" severity="error" value="1"/>
+  </efx:group>
+
+  <efx:group name="System Resources">
+    <efx:group_data info="runtime" name="packing" severity="info" value="0|0:0:3"/>
+    <efx:group_data info="runtime" name="placement" severity="info" value="0|0:1:37"/>
+    <efx:group_data info="runtime" name="routing" severity="info" value="0|0:6:21"/>
+    <efx:group_data info="runtime" name="Latest PnR Run" severity="info" value="0|0:8:13"/>
+    <efx:group_data info="peak_rr" name="Peak RSS" severity="info" value="706.064 MB"/>
+  </efx:group>
+
+  <efx:group name="Core Resources">
+    <efx:group_data name="Inputs" severity="info" value="60 / 1703"/>
+    <efx:group_data name="Outputs" severity="info" value="325 / 2267"/>
+    <efx:group_data name="XLRs" severity="info" value="58933 / 60800"/>
+    <efx:group_data name="Clocks" severity="info" value="9 / 64"/>
+    <efx:group_data name="Memory Blocks" severity="info" value="252 / 256"/>
+    <efx:group_data name="DSP Blocks" severity="info" value="58 / 160"/>
+  </efx:group>
+
+  <efx:group name="Timing (Post-Placement)">
+    <efx:group_data name="Worst Negative Slack (WNS)" severity="info" value="0.301 ns"/>
+    <efx:group_data name="Worst Hold Slack (WHS)" severity="error" value="-0.820 ns"/>
+    <efx:group_data name="tdqss_clk" severity="info" value="509.684 MHz"/>
+    <efx:group_data name="core_clk" severity="info" value="232.992 MHz"/>
+    <efx:group_data name="tac_clk" severity="info" value="434.216 MHz"/>
+    <efx:group_data name="twd_clk" severity="info" value="480.307 MHz"/>
+    <efx:group_data name="clk_sys" severity="info" value="105.831 MHz"/>
+    <efx:group_data name="clk_pixel" severity="info" value="83.340 MHz"/>
+    <efx:group_data name="cmos_pclk" severity="info" value="154.273 MHz"/>
+  </efx:group>
+
+  <efx:group name="Timing (Final)">
+    <efx:group_data name="Worst Negative Slack (WNS)" severity="info" value="0.115 ns"/>
+    <efx:group_data name="Worst Hold Slack (WHS)" severity="info" value="0.018 ns"/>
+    <efx:group_data name="tdqss_clk" severity="info" value="434.216 MHz"/>
+    <efx:group_data name="core_clk" severity="info" value="222.173 MHz"/>
+    <efx:group_data name="tac_clk" severity="info" value="420.168 MHz"/>
+    <efx:group_data name="twd_clk" severity="info" value="431.034 MHz"/>
+    <efx:group_data name="clk_sys" severity="info" value="97.069 MHz"/>
+    <efx:group_data name="clk_pixel" severity="info" value="82.781 MHz"/>
+    <efx:group_data name="cmos_pclk" severity="info" value="149.254 MHz"/>
+  </efx:group>
+
+</efx:tool_report>

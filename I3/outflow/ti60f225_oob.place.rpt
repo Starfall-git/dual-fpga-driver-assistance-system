@@ -1,0 +1,104 @@
+
+Elitestek FPGA Placement and Routing.
+Version: 2026.1.132.3.9 
+Date: Wed Nov  4 12:18:05 2026
+
+Copyright (C) 2013 - 2026 Efinix, Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: ti60f225_oob
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|    jtag_inst1_DRCK     |    Input     |
+|     jtag_inst1_TMS     |    Input     |
+|   jtag_inst1_RUNTEST   |    Input     |
+|        rx_dv_HI        |    Input     |
+|         mdio_i         |    Input     |
+| mipi_dp_data0_LP_P_IN  |    Input     |
+| mipi_dp_data0_LP_N_IN  |    Input     |
+|    cam_d2_HS_IN[0]     |    Input     |
+|    cam_d2_HS_IN[1]     |    Input     |
+|    cam_d2_HS_IN[2]     |    Input     |
+|    cam_d2_HS_IN[3]     |    Input     |
+|    cam_d2_HS_IN[4]     |    Input     |
+|    cam_d2_HS_IN[5]     |    Input     |
+|    cam_d2_HS_IN[6]     |    Input     |
+|    cam_d2_HS_IN[7]     |    Input     |
+|    cam_d0_HS_IN[0]     |    Input     |
+|    cam_d0_HS_IN[1]     |    Input     |
+|    cam_d0_HS_IN[2]     |    Input     |
+|    cam_d0_HS_IN[3]     |    Input     |
+|    cam_d0_HS_IN[4]     |    Input     |
+|    cam_d0_HS_IN[5]     |    Input     |
+|    cam_d0_HS_IN[6]     |    Input     |
+|    cam_d0_HS_IN[7]     |    Input     |
+|    cam_d1_HS_IN[0]     |    Input     |
+|    cam_d1_HS_IN[1]     |    Input     |
+|    cam_d1_HS_IN[2]     |    Input     |
+|    cam_d1_HS_IN[3]     |    Input     |
+|    cam_d1_HS_IN[4]     |    Input     |
+|    cam_d1_HS_IN[5]     |    Input     |
+|    cam_d1_HS_IN[6]     |    Input     |
+|    cam_d1_HS_IN[7]     |    Input     |
+|    cam_d3_HS_IN[0]     |    Input     |
+|    cam_d3_HS_IN[1]     |    Input     |
+|    cam_d3_HS_IN[2]     |    Input     |
+|    cam_d3_HS_IN[3]     |    Input     |
+|    cam_d3_HS_IN[4]     |    Input     |
+|    cam_d3_HS_IN[5]     |    Input     |
+|      ddr_addr[15]      |    Output    |
+|    cam_d3_HS_IN[6]     |    Input     |
+|    cam_d3_HS_IN[7]     |    Input     |
+|      ddr_addr[14]      |    Output    |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+
+---------- IO Placement Summary (begin) ----------
+
++----------------------+--------------+
+| Unassigned Core Pins | Input/Output |
++----------------------+--------------+
+|    pll_inst4_RSTN    |    Output    |
++----------------------+--------------+
+
+----------- IO Placement Summary (end) ----------
+
+
+---------- Module Resource Usage Distribution Estimates (begin) ----------
+
+'Module Resource Usage Distribution Estimates' table printed in: D:/FPGA_I3_Submission/outflow\ti60f225_oob.hier_util.rpt
+
+----------- Module Resource Usage Distribution Estimates (end) ----------
+
+Elapsed time for packing: 0 hours 0 minutes 3 seconds
+---------- Resource Summary (begin) ----------
+Inputs: 94 / 1703 (5.52%)
+Outputs: 377 / 2267 (16.63%)
+Global Clocks (GBUF): 21 / 32 (65.62%)
+Regional Clocks (RBUF): 1 / 32 (3.12%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 1 / 8 (12.50%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 59961 / 60800 (98.62%)
+	XLRs needed for LUT4: 24901 / 60800 (40.96%)
+	XLRs needed for LUT4 + FF: 11977 / 60800 (19.70%)
+	XLRs needed for COMB4: 0 / 60800 (0.00%)
+	XLRs needed for COMB4 + FF: 0 / 60800 (0.00%)
+	XLRs needed for Adder: 4335 / 60800 (7.13%)
+	XLRs needed for Adder + FF: 2040 / 60800 (3.36%)
+	XLRs needed for SRL8: 1291 / 14720 (8.77%)
+	XLRs needed for SRL8 + FF: 0 / 14720 (0.00%)
+	XLRs needed for FF: 15417 / 60800 (25.36%)
+	XLRs needed for Routing: 0 / 60800 (0.00%)
+Memory Blocks: 236 / 256 (92.19%)
+DSP Blocks: 31 / 160 (19.38%)
+---------- Resource Summary (end) ----------
+
+Elapsed time for placement: 0 hours 1 minutes 42 seconds
